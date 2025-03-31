@@ -23,7 +23,7 @@ def launch_setup(context, *args, **kwargs):
            ]
         + [
             f"/model/{namespace}/pose@geometry_msgs/msg/PoseArray@gz.msgs.Pose_V",
-            f"/world/waves/model/wamv_thrust/link/camera_link/sensor/camera_sensor/image@sensor_msgs/msg/Image@gz.msgs.Image",
+            f"/world/waves/model/wamv_move/link/camera_link/sensor/camera_sensor/image@sensor_msgs/msg/Image@gz.msgs.Image",
             f"/model/{namespace}/camera/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo",
            ]
     )
@@ -66,7 +66,7 @@ def generate_launch_description():
     args = [
         DeclareLaunchArgument(
             "namespace",
-            default_value="wamv_thrust",
+            default_value="wamv_move",
             description="Namespace to remap the model topics under",
         ),
         # DeclareLaunchArgument(

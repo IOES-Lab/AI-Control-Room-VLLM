@@ -1,20 +1,20 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='wamv_thrust'>
+  <model name='wamv_move'>
     <enable_wind>true</enable_wind>
 
     <link name="base_link">
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://wamv_thrust/meshes/WAM-V-Base.dae</uri>
+            <uri>model://wamv_move/meshes/WAM-V-Base.dae</uri>
           </mesh>
         </geometry>
       </visual>
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://wamv_thrust/meshes/wamv-base_collision_406.stl</uri>
+            <uri>model://wamv_move/meshes/wamv-base_collision_406.stl</uri>
           </mesh>
         </geometry>
       </collision>
@@ -48,7 +48,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://wamv_thrust/meshes/engine.dae</uri>
+            <uri>model://wamv_move/meshes/engine.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -100,7 +100,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://wamv_thrust/meshes/engine.dae</uri>
+            <uri>model://wamv_move/meshes/engine.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -152,7 +152,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://wamv_thrust/meshes/propeller.dae</uri>
+            <uri>model://wamv_move/meshes/propeller.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -197,7 +197,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://wamv_thrust/meshes/propeller.dae</uri>
+            <uri>model://wamv_move/meshes/propeller.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -281,7 +281,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://wamv_thrust/meshes/3dCamera.dae</uri>
+            <uri>model://wamv_move/meshes/3dCamera.dae</uri>
           </mesh>
         </geometry>
       </visual>
@@ -338,7 +338,7 @@
     <plugin
         filename="gz-sim-thruster-system"
         name="gz::sim::systems::Thruster">
-      <namespace>wamv_thrust</namespace>
+      <namespace>wamv_move</namespace>
       <joint_name>left_propeller_joint</joint_name>
       <use_angvel_cmd>0</use_angvel_cmd>
       <fluid_density>1000</fluid_density>
@@ -354,7 +354,7 @@
     <plugin
         filename="gz-sim-thruster-system"
         name="gz::sim::systems::Thruster">
-      <namespace>wamv_thrust</namespace>
+      <namespace>wamv_move</namespace>
       <joint_name>right_propeller_joint</joint_name>
       <use_angvel_cmd>0</use_angvel_cmd>
       <fluid_density>1000</fluid_density>
@@ -373,7 +373,7 @@
         filename="gz-waves-hydrodynamics-system"
         name="gz::sim::systems::Hydrodynamics">
         
-        <enable>wamv_thrust::base_link</enable>
+        <enable>wamv_move::base_link</enable>
 
         <enable>wamv::left_engine_link</enable>
         <enable>wamv::left_propeller_link</enable>

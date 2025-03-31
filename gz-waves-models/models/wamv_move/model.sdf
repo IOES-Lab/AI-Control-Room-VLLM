@@ -328,12 +328,12 @@
     </plugin>
     <plugin filename="gz-sim-apply-joint-force-system"
       name="gz::sim::systems::ApplyJointForce">
-      <joint_name>left_engine_joint</joint_name>
+      <joint_name>left_propeller_joint</joint_name>
       <force>50.0</force>
     </plugin>
     <plugin filename="gz-sim-apply-joint-force-system"
       name="gz::sim::systems::ApplyJointForce">
-      <joint_name>right_engine_joint</joint_name>
+      <joint_name>right_propeller_joint</joint_name>
       <force>-50.0</force>
     </plugin>
 

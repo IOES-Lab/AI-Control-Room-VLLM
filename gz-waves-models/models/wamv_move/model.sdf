@@ -79,8 +79,8 @@
         </inertia>
       </inertial>
     </link>
-    <!-- <joint name="left_engine_joint" type="revolute"> -->
-    <joint name="left_engine_joint" type="fixed">
+    <joint name="left_engine_joint" type="revolute">
+    <!-- <joint name="left_engine_joint" type="fixed"> -->
       <parent>base_link</parent>
       <child>left_engine_link</child>
       <axis>
@@ -131,8 +131,8 @@
         </inertia>
       </inertial>
     </link>
-    <!-- <joint name="right_engine_joint" type="revolute"> -->
-    <joint name="right_engine_joint" type="fixed">
+    <joint name="right_engine_joint" type="revolute"> 
+    <!-- <joint name="right_engine_joint" type="fixed"> -->
       <parent>base_link</parent>
       <child>right_engine_link</child>
       <axis>

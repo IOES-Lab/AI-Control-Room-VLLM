@@ -298,9 +298,10 @@
             <near>0.1</near>
             <far>100</far>
           </clip>
-          <save enabled="true">
+          <!--save image-->
+          <!--<save enabled="true">
             <path>/Users/kimminjung/Desktop/camera_output</path>
-          </save>
+          </save>-->
         </camera>
       </sensor>
     </link>
@@ -334,7 +335,7 @@
       <joint_name>right_engine_joint</joint_name>
     </plugin>
 
-    
+
 
     <!-- Thruster plugins -->
     <plugin

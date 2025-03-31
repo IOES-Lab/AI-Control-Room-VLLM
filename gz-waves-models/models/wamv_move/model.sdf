@@ -181,7 +181,7 @@
       <parent>left_engine_link</parent>
       <child>left_propeller_link</child>
       <axis>
-        <xyz>1 0 0</xyz>
+        <xyz>0 1 0</xyz>
         <dynamics>
           <damping>0.01</damping>
         </dynamics>
@@ -226,7 +226,7 @@
       <parent>right_engine_link</parent>
       <child>right_propeller_link</child>
       <axis>
-        <xyz>1 0 0</xyz>
+        <xyz>0 1 0</xyz>
         <dynamics>
           <damping>0.01</damping>
         </dynamics>
@@ -329,10 +329,12 @@
     <plugin filename="gz-sim-apply-joint-force-system"
       name="gz::sim::systems::ApplyJointForce">
       <joint_name>left_engine_joint</joint_name>
+      <force>50.0</force>
     </plugin>
     <plugin filename="gz-sim-apply-joint-force-system"
       name="gz::sim::systems::ApplyJointForce">
       <joint_name>right_engine_joint</joint_name>
+      <force>-50.0</force>
     </plugin>
 
 

@@ -1,0 +1,15 @@
+gui.config
+package.xml
+setup.cfg
+setup.py
+launch/ai_control.launch.py
+launch/upload_robot.launch.py
+resource/ros_gz_ai_control
+ros_gz_ai_control/__init__.py
+ros_gz_ai_control.egg-info/PKG-INFO
+ros_gz_ai_control.egg-info/SOURCES.txt
+ros_gz_ai_control.egg-info/dependency_links.txt
+ros_gz_ai_control.egg-info/entry_points.txt
+ros_gz_ai_control.egg-info/requires.txt
+ros_gz_ai_control.egg-info/top_level.txt
+ros_gz_ai_control.egg-info/zip-safe

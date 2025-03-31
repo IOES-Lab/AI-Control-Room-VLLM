@@ -1,0 +1,143 @@
+[0.656s] Invoking command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves': SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves -- -j8 -l8
+[1.806s] [  2%] Built target gtest
+[2.093s] [ 24%] Built target gz-waves
+[2.669s] [ 26%] Built target gtest_main
+[3.338s] [ 31%] Built target gz-waves-waves-model-system
+[3.338s] [ 31%] Built target gz-waves-dynamic-geometry-system
+[3.338s] [ 33%] Built target gz-waves-hydrodynamics-system
+[3.340s] [ 34%] Built target PLOT_GnuPlotExample
+[3.623s] [ 44%] Built target gz-waves-rendering
+[4.204s] [ 46%] Built target PLOT_LinearRandomWaves
+[4.480s] [ 48%] Built target PLOT_LinearRandomFFTWaves
+[4.493s] [ 50%] Built target PLOT_LinearRegularWaves
+[4.874s] [ 52%] Built target UNIT_EigenFFTW_TEST
+[4.876s] [ 54%] Built target PLOT_WaveSpectrum
+[4.881s] [ 55%] Built target UNIT_Algorithm_TEST
+[4.964s] [ 58%] Built target UNIT_CGAL_TEST
+[5.350s] [ 60%] Built target UNIT_Geometry_TEST
+[5.654s] [ 62%] Built target UNIT_Grid_TEST
+[6.002s] [ 64%] Built target UNIT_LinearRandomFFTWaveSimulation_TEST
+[6.192s] [ 65%] Built target UNIT_LinearRegularWaveSimulation_TEST
+[6.446s] [ 67%] Built target UNIT_Physics_TEST
+[6.562s] [ 69%] Built target UNIT_TriangulatedGrid_TEST
+[6.562s] [ 72%] Built target UNIT_Wavefield_TEST
+[6.563s] [ 74%] Built target UNIT_MeshTools_TEST
+[6.772s] [ 76%] Built target UNIT_WaveSpectrum_TEST
+[7.111s] [ 77%] Built target UNIT_WaveSpreadingFunction_TEST
+[7.807s] [ 79%] Built target PERFORMANCE_EigenReturnByValue
+[7.878s] [ 81%] Built target gz-waves-waves-visual-system
+[7.908s] [ 83%] Built target PERFORMANCE_LinearRandomFFTWaveSimDisplacements
+[7.909s] [ 84%] Built target PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes
+[7.916s] [ 91%] Built target gz-waves-rendering-ogre2
+[8.016s] [ 93%] Built target PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes
+[8.097s] [ 95%] Built target PERFORMANCE_LinearRandomFFTWaveSimElevationAt
+[8.167s] [ 97%] Built target PERFORMANCE_LinearRegularWaveSimDisplacements
+[8.361s] [100%] Built target PERFORMANCE_WaveSpectrumECKV
+[8.415s] Invoked command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves' returned '0': SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves -- -j8 -l8
+[8.418s] Invoking command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves': SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves
+[8.466s] -- Install configuration: "RelWithDebInfo"
+[8.466s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-all/gz-waves-all-config.cmake
+[8.466s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-all/gz-waves-all-config-version.cmake
+[8.467s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-all/gz-waves-all-targets.cmake
+[8.467s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/detail/Export.hh
+[8.467s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Export.hh
+[8.467s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves.1.0.0.dylib
+[8.470s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves.1.dylib
+[8.670s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves.dylib
+[8.670s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-config.cmake
+[8.670s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-config-version.cmake
+[8.670s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-targets.cmake
+[8.670s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-targets-relwithdebinfo.cmake
+[8.670s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves.pc
+[8.671s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/dynamic-geometry-system/detail/Export.hh
+[8.671s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/dynamic-geometry-system/Export.hh
+[8.671s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-dynamic-geometry-system.1.0.0.dylib
+[8.673s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-dynamic-geometry-system.1.dylib
+[8.872s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-dynamic-geometry-system.dylib
+[8.872s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-config.cmake
+[8.872s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-config-version.cmake
+[8.873s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-targets.cmake
+[8.873s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-targets-relwithdebinfo.cmake
+[8.873s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-dynamic-geometry-system.pc
+[8.873s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/hydrodynamics-system/detail/Export.hh
+[8.873s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/hydrodynamics-system/Export.hh
+[8.873s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-hydrodynamics-system.1.0.0.dylib
+[8.876s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-hydrodynamics-system.1.dylib
+[9.080s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-hydrodynamics-system.dylib
+[9.081s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-config.cmake
+[9.081s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-config-version.cmake
+[9.081s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-targets.cmake
+[9.081s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-targets-relwithdebinfo.cmake
+[9.081s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-hydrodynamics-system.pc
+[9.082s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering/detail/Export.hh
+[9.082s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering/Export.hh
+[9.082s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering.1.0.0.dylib
+[9.084s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering.1.dylib
+[9.285s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering.dylib
+[9.285s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-config.cmake
+[9.285s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-config-version.cmake
+[9.286s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-targets.cmake
+[9.286s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-targets-relwithdebinfo.cmake
+[9.286s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-rendering.pc
+[9.286s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering-ogre2/detail/Export.hh
+[9.286s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering-ogre2/Export.hh
+[9.286s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering-ogre2.1.0.0.dylib
+[9.288s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering-ogre2.1.dylib
+[9.492s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering-ogre2.dylib
+[9.492s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-config.cmake
+[9.492s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-config-version.cmake
+[9.493s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-targets.cmake
+[9.493s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-targets-relwithdebinfo.cmake
+[9.493s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-rendering-ogre2.pc
+[9.493s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-visual-system/detail/Export.hh
+[9.493s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-visual-system/Export.hh
+[9.493s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-visual-system.1.0.0.dylib
+[9.496s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-visual-system.1.dylib
+[9.699s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-visual-system.dylib
+[9.699s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-config.cmake
+[9.699s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-config-version.cmake
+[9.700s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-targets.cmake
+[9.700s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-targets-relwithdebinfo.cmake
+[9.700s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-waves-visual-system.pc
+[9.700s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-model-system/detail/Export.hh
+[9.700s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-model-system/Export.hh
+[9.700s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-model-system.1.0.0.dylib
+[9.702s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-model-system.1.dylib
+[9.905s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-model-system.dylib
+[9.905s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-config.cmake
+[9.905s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-config-version.cmake
+[9.906s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-targets.cmake
+[9.906s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-targets-relwithdebinfo.cmake
+[9.906s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-waves-model-system.pc
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/components/Wavefield.hh
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Algorithm.hh
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/CGALTypes.hh
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Convert.hh
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Geometry.hh
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Grid.hh
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/LinearRandomFFTWaveSimulation.hh
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/LinearRandomWaveSimulation.hh
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/LinearRegularWaveSimulation.hh
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/MeshTools.hh
+[9.907s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/OceanTile.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/PhysicalConstants.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Physics.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/TriangulatedGrid.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/TrochoidIrregularWaveSimulation.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Types.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Utilities.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveParameters.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveSimulation.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveSpectrum.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveSpreadingFunction.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Wavefield.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WavefieldSampler.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/config.hh
+[9.908s] -- Up-to-date: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/components.hh
+[9.909s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_GnuPlotExample
+[10.110s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_LinearRandomFFTWaves
+[10.311s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_LinearRandomWaves
+[10.516s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_LinearRegularWaves
+[10.717s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_WaveSpectrum
+[10.918s] Invoked command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves' returned '0': SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves

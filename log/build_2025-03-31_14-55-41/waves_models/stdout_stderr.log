@@ -1,0 +1,190 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- The C compiler identification is AppleClang 16.0.0.16000026
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.0 (/Users/kimminjung/ros2_jazzy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /Users/kimminjung/.ros2_venv/bin/python3 (found version "3.11.11") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (8.7s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_INCLUDE_PATH
+    CMAKE_INSTALL_NAME_DIR
+
+
+-- Build files have been written to: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/waves_models
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/barrage/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/barrage/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/barrage_buoy/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/barrage_buoy/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/duck/LICENSE
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/duck/meshes/duck.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/duck/meshes/duck.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/duck/meshes/duck.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/duck/meshes/duck_collision.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/duck/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/duck/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/rm3_wec/meshes/float.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/rm3_wec/meshes/plate.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/rm3_wec/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/rm3_wec/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/rm3_wec_mini/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/rm3_wec_mini/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/shipping_container/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/shipping_container/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/spherical_buoy/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/spherical_buoy/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/surmark_buoy_black/meshes/surmark950410.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/surmark_buoy_black/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/surmark_buoy_black/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/surmark_buoy_red/meshes/surmark950410.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/surmark_buoy_red/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/surmark_buoy_red/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/surmark_buoy_white/meshes/surmark950410.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/surmark_buoy_white/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/surmark_buoy_white/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/config/ardupilot.param
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/config/robot_config.py
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/meshes/WAM-V-Base.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/meshes/WamV.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/meshes/engine.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/meshes/propeller.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/meshes/wamv-base.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/meshes/wamv-base_collision.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/meshes/wamv-base_collision_202.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/meshes/wamv-base_collision_406.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/meshes/wamv-base_collision_812.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/.DS_Store
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/config/ardupilot.param
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/config/robot_config.py
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/.DS_Store
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/3dCamera.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/3dCamera.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/WAM-V-Base.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/WamV.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/engine.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/propeller.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/wamv-base.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/wamv-base_collision.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/wamv-base_collision_202.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/wamv-base_collision_406.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/meshes/wamv-base_collision_812.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_camera/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/.DS_Store
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/config/ardupilot.param
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/config/robot_config.py
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/.DS_Store
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/3dCamera.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/3dCamera.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/WAM-V-Base.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/WamV.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/engine.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/propeller.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/wamv-base.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/wamv-base_collision.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/wamv-base_collision_202.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/wamv-base_collision_406.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/meshes/wamv-base_collision_812.stl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/models/wamv_move/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/mumbles_head/materials/textures/dirt_diffusespecular.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/mumbles_head/materials/textures/flat_normal.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/mumbles_head/materials/textures/fungus_diffusespecular.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/mumbles_head/materials/textures/grass_diffusespecular.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/mumbles_head/materials/textures/mumbles_head_513.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/mumbles_head/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/mumbles_head/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/flat_normal.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/mesh_L100m_N256.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/mesh_L100m_N256_below.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/mesh_L256m_N256.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/mesh_L256m_N256_below.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/skybox_lowres.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/skybox_test.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/wave_normals.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/waves_fs.glsl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/waves_fs.metal
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/waves_vs.glsl
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/materials/waves_vs.metal
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/ocean_waves/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/regular_waves/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/regular_waves/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/trochoid_waves/materials/flat_normal.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/trochoid_waves/materials/mesh_L256m_N256.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/trochoid_waves/materials/skybox_lowres.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/trochoid_waves/materials/skybox_test.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/trochoid_waves/materials/water.jpg
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/trochoid_waves/materials/wave_normals.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/trochoid_waves/materials/waves_fs.metal
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/trochoid_waves/materials/waves_vs.metal
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/trochoid_waves/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/trochoid_waves/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_high/materials/flat_normal.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_high/materials/mesh_L256m_N256.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_high/materials/skybox_lowres.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_high/materials/skybox_test.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_high/materials/water.jpg
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_high/materials/wave_normals.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_high/materials/waves_fs.metal
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_high/materials/waves_vs.metal
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_high/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_high/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_low/materials/flat_normal.png
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_low/materials/mesh_L256m_N256.dae
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_low/materials/skybox_lowres.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_low/materials/skybox_test.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_low/materials/water.jpg
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_low/materials/wave_normals.dds
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_low/materials/waves_fs.metal
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_low/materials/waves_vs.metal
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_low/model.config
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/world_models/waves_low/model.sdf
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/worlds/buoyancy_test.world
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/worlds/dynamic_geometry.world
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/worlds/graded_buoyancy_waves.world
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/worlds/mumbles_head.world
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/worlds/rm3_wec.world
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/worlds/waves.world
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/worlds/waves_high.world
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/worlds/waves_wind.world
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/environment/waves_models.dsv
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ament_index/resource_index/package_run_dependencies/waves_models
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ament_index/resource_index/parent_prefix_path/waves_models
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/environment/ament_prefix_path.sh
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/environment/ament_prefix_path.dsv
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/environment/path.sh
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/environment/path.dsv
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/local_setup.bash
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/local_setup.sh
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/local_setup.zsh
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/local_setup.dsv
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/package.dsv
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ament_index/resource_index/packages/waves_models
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/cmake/waves_modelsConfig.cmake
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/cmake/waves_modelsConfig-version.cmake
+-- Symlinking: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/waves_models/package.xml

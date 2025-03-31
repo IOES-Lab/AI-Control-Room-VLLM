@@ -1,0 +1,3 @@
+[console_scripts]
+tf_broadcaster = ros_gz_ai_control.tf_broadcaster:main
+

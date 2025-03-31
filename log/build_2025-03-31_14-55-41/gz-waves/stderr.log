@@ -1,0 +1,193 @@
+CMake Warning (dev) at /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/_deps/gnuplot-iostream-src/CMakeLists.txt:9 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGAL_SetupBoost.cmake:20 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGAL_SetupCGALDependencies.cmake:48 (include)
+  /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGALConfig.cmake:169 (include)
+  CMakeLists.txt:134 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGAL_SetupCGAL_CoreDependencies.cmake:51 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGAL_setup_target_dependencies.cmake:5 (CGAL_setup_CGAL_Core_dependencies)
+  /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGALConfig.cmake:192 (CGAL_setup_target_dependencies)
+  CMakeLists.txt:134 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CGAL_VERSION_MAJOR: 6
+CMake Warning (dev) at test/plots/CMakeLists.txt:6 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+1 warning generated.
+1 warning generated.
+1 warning generated.
+1 warning generated.
+1 warning generated.
+1 warning generated.
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+1 warning generated.
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+1 warning generated.
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+
+1 warning generated.
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+1 warning generated.
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+1 warning generated.
+1 warning generated.
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+1 warning generated.
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+warning: warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+
+warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+1 warning generated.
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+1 warning generated.

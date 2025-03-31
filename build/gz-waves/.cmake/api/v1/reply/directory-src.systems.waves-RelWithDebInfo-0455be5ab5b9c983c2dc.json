@@ -1,0 +1,632 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_gz_add_library_or_component",
+			"gz_add_component",
+			"_gz_create_cmake_package",
+			"_gz_create_pkgconfig",
+			"gz_add_system"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/opt/gz-cmake3/share/cmake/gz-cmake3/cmake3/GzUtils.cmake",
+			"/opt/homebrew/opt/gz-cmake3/share/cmake/gz-cmake3/cmake3/GzAddComponent.cmake",
+			"src/systems/waves/CMakeLists.txt",
+			"/opt/homebrew/opt/gz-cmake3/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake",
+			"src/systems/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 228,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 228,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 47,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 27
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 228,
+				"parent" : 30
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 47,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 34
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 38
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 228,
+				"parent" : 41
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/rendering/detail",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/include/gz/waves/rendering/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/rendering",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/include/gz/waves/rendering/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves-rendering.1.0.0.dylib",
+				"lib/libgz-waves-rendering.1.dylib"
+			],
+			"targetId" : "gz-waves-rendering::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 62,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves-rendering.dylib"
+			],
+			"targetId" : "gz-waves-rendering::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 62,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "cmake",
+			"destination" : "lib/cmake/gz-waves-rendering",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/gz-waves-rendering-config.cmake",
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/gz-waves-rendering-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/gz-waves-rendering",
+			"exportName" : "gz-waves-rendering",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gz-waves-rendering::@4d9f8f20e6e3f8a0bb8e",
+					"index" : 62
+				}
+			],
+			"paths" : 
+			[
+				"src/systems/waves/CMakeFiles/Export/37f60d2f47623f662143d60d8ad14daf/gz-waves-rendering-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "pkgconfig",
+			"destination" : "/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/pkgconfig/gz-waves-rendering.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/rendering-ogre2/detail",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/include/gz/waves/rendering-ogre2/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/rendering-ogre2",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/include/gz/waves/rendering-ogre2/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves-rendering-ogre2.1.0.0.dylib",
+				"lib/libgz-waves-rendering-ogre2.1.dylib"
+			],
+			"targetId" : "gz-waves-rendering-ogre2::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 63,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves-rendering-ogre2.dylib"
+			],
+			"targetId" : "gz-waves-rendering-ogre2::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 63,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "cmake",
+			"destination" : "lib/cmake/gz-waves-rendering-ogre2",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/gz-waves-rendering-ogre2-config.cmake",
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/gz-waves-rendering-ogre2-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/gz-waves-rendering-ogre2",
+			"exportName" : "gz-waves-rendering-ogre2",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gz-waves-rendering-ogre2::@4d9f8f20e6e3f8a0bb8e",
+					"index" : 63
+				}
+			],
+			"paths" : 
+			[
+				"src/systems/waves/CMakeFiles/Export/e397a373a2745475bb496bd27919331f/gz-waves-rendering-ogre2-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "pkgconfig",
+			"destination" : "/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/pkgconfig/gz-waves-rendering-ogre2.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/waves-visual-system/detail",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/include/gz/waves/waves-visual-system/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/waves-visual-system",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/include/gz/waves/waves-visual-system/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves-waves-visual-system.1.0.0.dylib",
+				"lib/libgz-waves-waves-visual-system.1.dylib"
+			],
+			"targetId" : "gz-waves-waves-visual-system::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 65,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves-waves-visual-system.dylib"
+			],
+			"targetId" : "gz-waves-waves-visual-system::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 65,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "cmake",
+			"destination" : "lib/cmake/gz-waves-waves-visual-system",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/gz-waves-waves-visual-system-config.cmake",
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/gz-waves-waves-visual-system-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/gz-waves-waves-visual-system",
+			"exportName" : "gz-waves-waves-visual-system",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gz-waves-waves-visual-system::@4d9f8f20e6e3f8a0bb8e",
+					"index" : 65
+				}
+			],
+			"paths" : 
+			[
+				"src/systems/waves/CMakeFiles/Export/d3a0707c2100c0a484cb9bca025a73fc/gz-waves-waves-visual-system-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "pkgconfig",
+			"destination" : "/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/pkgconfig/gz-waves-waves-visual-system.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/waves-model-system/detail",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/include/gz/waves/waves-model-system/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/waves-model-system",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/include/gz/waves/waves-model-system/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves-waves-model-system.1.0.0.dylib",
+				"lib/libgz-waves-waves-model-system.1.dylib"
+			],
+			"targetId" : "gz-waves-waves-model-system::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 64,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves-waves-model-system.dylib"
+			],
+			"targetId" : "gz-waves-waves-model-system::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 64,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "cmake",
+			"destination" : "lib/cmake/gz-waves-waves-model-system",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/gz-waves-waves-model-system-config.cmake",
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/gz-waves-waves-model-system-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/gz-waves-waves-model-system",
+			"exportName" : "gz-waves-waves-model-system",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gz-waves-waves-model-system::@4d9f8f20e6e3f8a0bb8e",
+					"index" : 64
+				}
+			],
+			"paths" : 
+			[
+				"src/systems/waves/CMakeFiles/Export/5daca37b1d570559f4df60916cd90c48/gz-waves-waves-model-system-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "pkgconfig",
+			"destination" : "/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/cmake/pkgconfig/gz-waves-waves-model-system.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/systems/waves",
+		"source" : "src/systems/waves"
+	}
+}

@@ -1,0 +1,4 @@
+source;share/waves_models/local_setup.bash
+source;share/waves_models/local_setup.dsv
+source;share/waves_models/local_setup.sh
+source;share/waves_models/local_setup.zsh

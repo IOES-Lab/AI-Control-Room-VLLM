@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating ros_gz_ai_control.egg-info
+writing ros_gz_ai_control.egg-info/PKG-INFO
+writing dependency_links to ros_gz_ai_control.egg-info/dependency_links.txt
+writing entry points to ros_gz_ai_control.egg-info/entry_points.txt
+writing requirements to ros_gz_ai_control.egg-info/requires.txt
+writing top-level names to ros_gz_ai_control.egg-info/top_level.txt
+writing manifest file 'ros_gz_ai_control.egg-info/SOURCES.txt'
+reading manifest file 'ros_gz_ai_control.egg-info/SOURCES.txt'
+writing manifest file 'ros_gz_ai_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/python3.11/site-packages/ros-gz-ai-control.egg-link (link to .)
+Installing tf_broadcaster script to /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/ros_gz_ai_control
+
+Installed /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control
+running symlink_data
+creating /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ament_index
+creating /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ament_index/resource_index
+creating /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ament_index/resource_index/packages
+symbolically linking /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control/resource/ros_gz_ai_control -> /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ament_index/resource_index/packages
+symbolically linking /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control/package.xml -> /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ros_gz_ai_control
+symbolically linking /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control/launch/ai_control.launch.py -> /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ros_gz_ai_control
+symbolically linking /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control/launch/upload_robot.launch.py -> /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ros_gz_ai_control
+creating /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ros_gz_ai_control/rviz
+symbolically linking /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control/gui.config -> /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/share/ros_gz_ai_control

@@ -1,0 +1,584 @@
+-- The C compiler identification is AppleClang 16.0.0.16000026
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- gz-waves version 1.0.0
+-- Operating system is Apple MacOS X
+-- Found Boost: /opt/homebrew/opt/boost/lib/cmake/Boost-1.87.0/BoostConfig.cmake (found version "1.87.0") found components: iostreams system filesystem
+-- Looking for gz-math7 -- found version 7.5.2
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-math7> component [eigen3]
+-- Looking for gz-math7-eigen3 -- found version 7.5.2
+-- Searching for dependencies of gz-math7-eigen3
+-- Looking for gz-math7 - found
+
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.2.1
+-- Searching for dependencies of gz-utils2-cli
+-- Searching for <gz-plugin2> component [loader]
+-- Looking for gz-plugin2-loader -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2-loader
+-- Searching for <gz-plugin2> component [register]
+-- Looking for gz-plugin2-register -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2-register
+-- Looking for gz-plugin2 - found
+
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE
+-- Found UUID: TRUE
+-- Searching for <gz-common5> component [graphics]
+-- Looking for gz-common5-graphics -- found version 5.7.1
+-- Searching for dependencies of gz-common5-graphics
+-- Looking for gz-math7 -- found version 7.5.2
+-- Found GzAssimp: TRUE (found version "5.4.3")
+-- Searching for <gz-common5> component [events]
+-- Looking for gz-common5-events -- found version 5.7.1
+-- Searching for dependencies of gz-common5-events
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-common5 - found
+
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Searching for dependencies of gz-msgs10
+-- Found ZLIB: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libz.tbd (found version "1.2.12")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-math7 -- found version 7.5.2
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 10.1.0
+-- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.13/bin/python3.13 (found version "3.13.2") found components: Interpreter
+-- Looking for gz-msgs10 - found
+
+-- Looking for gz-transport13 -- found version 13.4.1
+-- Searching for dependencies of gz-transport13
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq, version 4.3.5
+-- Found ZeroMQ: TRUE (Required is at least version "4")
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for gz-transport13 - found
+
+-- Looking for gz-rendering8 -- found version 8.2.2
+-- Searching for dependencies of gz-rendering8
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [graphics]
+-- Searching for <gz-common5> component [events]
+-- Searching for <gz-common5> component [geospatial]
+-- Looking for gz-common5-geospatial -- found version 5.7.1
+-- Searching for dependencies of gz-common5-geospatial
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-plugin2> component [all]
+-- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-rendering8 - found
+
+-- Looking for gz-sim8 -- found version 8.9.0
+-- Searching for dependencies of gz-sim8
+-- Looking for sdformat14 -- found version 14.7.0
+-- Searching for dependencies of sdformat14
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-transport13 -- found version 13.4.1
+-- Searching for dependencies of gz-transport13
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq, version 4.3.5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Searching for <gz-transport13> component [log]
+-- Looking for gz-transport13-log -- found version 13.4.1
+-- Searching for dependencies of gz-transport13-log
+-- Searching for <gz-transport13> component [parameters]
+-- Looking for gz-transport13-parameters -- found version 13.4.1
+-- Searching for dependencies of gz-transport13-parameters
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [av]
+-- Looking for gz-common5-av -- found version 5.7.1
+-- Searching for dependencies of gz-common5-av
+-- Checking for module 'libswscale'
+--   Found libswscale, version 8.3.100
+-- Found SWSCALE: TRUE
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice, version 61.3.100
+-- Found AVDEVICE: TRUE (Required is at least version "56.4.100")
+-- Checking for module 'libavformat'
+--   Found libavformat, version 61.7.100
+-- Found AVFORMAT: TRUE
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 61.19.101
+-- Found AVCODEC: TRUE
+-- Checking for module 'libavutil'
+--   Found libavutil, version 59.39.100
+-- Found AVUTIL: TRUE
+-- Searching for <gz-common5> component [events]
+-- Searching for <gz-common5> component [graphics]
+-- Searching for <gz-common5> component [io]
+-- Looking for gz-common5-io -- found version 5.7.1
+-- Searching for dependencies of gz-common5-io
+-- Searching for <gz-common5> component [profiler]
+-- Looking for gz-common5-profiler -- found version 5.7.1
+-- Searching for dependencies of gz-common5-profiler
+-- Looking for gz-fuel_tools9 -- found version 9.1.1
+-- Searching for dependencies of gz-fuel_tools9
+-- Found CURL: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libcurl.tbd (found version "8.7.1")
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.6
+-- Found JSONCPP: TRUE
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.5
+-- Found YAML: TRUE
+-- Checking for module 'libzip'
+--   Found libzip, version 1.11.3
+-- Found ZIP: TRUE
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [testing]
+-- Looking for gz-common5-testing -- found version 5.7.1
+-- Searching for dependencies of gz-common5-testing
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for gz-gui8 -- found version 8.4.0
+-- Searching for dependencies of gz-gui8
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-transport13 -- found version 13.4.1
+-- Looking for gz-rendering8 -- found version 8.2.2
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for gz-physics7 -- found version 7.5.0
+-- Searching for dependencies of gz-physics7
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-physics7> component [heightmap]
+-- Looking for gz-physics7-heightmap -- found version 7.5.0
+-- Searching for dependencies of gz-physics7-heightmap
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for <gz-physics7> component [mesh]
+-- Looking for gz-physics7-mesh -- found version 7.5.0
+-- Searching for dependencies of gz-physics7-mesh
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for <gz-physics7> component [sdf]
+-- Looking for gz-physics7-sdf -- found version 7.5.0
+-- Searching for dependencies of gz-physics7-sdf
+-- Looking for sdformat14 -- found version 14.7.0
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-transport13 -- found version 13.4.1
+-- Looking for gz-rendering8 -- found version 8.2.2
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for sdformat14 -- found version 14.7.0
+-- Searching for <gz-sensors8> component [air_pressure]
+-- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-air_pressure
+-- Searching for <gz-sensors8> component [air_speed]
+-- Looking for gz-sensors8-air_speed -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-air_speed
+-- Searching for <gz-sensors8> component [altimeter]
+-- Looking for gz-sensors8-altimeter -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-altimeter
+-- Searching for <gz-sensors8> component [imu]
+-- Looking for gz-sensors8-imu -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-imu
+-- Searching for <gz-sensors8> component [force_torque]
+-- Looking for gz-sensors8-force_torque -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-force_torque
+-- Searching for <gz-sensors8> component [logical_camera]
+-- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-logical_camera
+-- Searching for <gz-sensors8> component [magnetometer]
+-- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-magnetometer
+-- Searching for <gz-sensors8> component [navsat]
+-- Looking for gz-sensors8-navsat -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-navsat
+-- Searching for <gz-sensors8> component [dvl]
+-- Looking for gz-sensors8-dvl -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-dvl
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-transport13 -- found version 13.4.1
+-- Looking for gz-rendering8 -- found version 8.2.2
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for sdformat14 -- found version 14.7.0
+-- Searching for <gz-sensors8> component [rendering]
+-- Looking for gz-sensors8-rendering -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-rendering
+-- Searching for <gz-sensors8> component [rendering]
+-- Searching for <gz-sensors8> component [lidar]
+-- Looking for gz-sensors8-lidar -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-lidar
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [gpu_lidar]
+-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-gpu_lidar
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [camera]
+-- Looking for gz-sensors8-camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [boundingbox_camera]
+-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-boundingbox_camera
+-- Searching for <gz-sensors8> component [segmentation_camera]
+-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-segmentation_camera
+-- Searching for <gz-sensors8> component [depth_camera]
+-- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-depth_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [rgbd_camera]
+-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-rgbd_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [thermal_camera]
+-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-thermal_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [wide_angle_camera]
+-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-wide_angle_camera
+-- Looking for gz-rendering8 -- found version 8.2.2
+-- Looking for gz-math7 -- found version 7.5.2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-sim8 - found
+
+-- Looking for sdformat14 -- found version 14.7.0
+-- Looking for sdformat14 - found
+
+-- Compiling against Gazebo Harmonic
+-- Checking for module 'OGRE-RTShaderSystem >= 1.9'
+--   Found OGRE-RTShaderSystem, version 1.9.0
+-- Checking for module 'OGRE-Terrain >= 1.9'
+--   Found OGRE-Terrain, version 1.9.0
+-- Checking for module 'OGRE-Overlay >= 1.9'
+--   Found OGRE-Overlay, version 1.9.0
+-- Checking for module 'OGRE-Paging >= 1.9'
+--   Found OGRE-Paging, version 1.9.0
+-- Looking for GzOGRE - found
+
+-- Looking for OGRE using the name: OGRE2
+--   + component HlmsPbs: found
+--   + component HlmsUnlit: found
+--   + component Overlay: found
+--   + component PlanarReflections: found
+-- Looking for GzOGRE2 - found
+
+-- Targeting Unix Makefiles
+-- Using /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ compiler.
+-- Running in macOS DARWIN_VERSION=24
+-- Found GMP: /opt/homebrew/lib/libgmp.dylib
+-- Found MPFR: /opt/homebrew/lib/libmpfr.dylib
+-- Found Boost: /opt/homebrew/opt/boost/lib/cmake/Boost-1.87.0/BoostConfig.cmake (found suitable version "1.87.0", minimum required is "1.72")
+-- Boost include dirs: /opt/homebrew/Cellar/boost/1.87.0_1/include
+-- Boost libraries:    
+-- Configuring library: gz-waves-dynamic-geometry-system
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Failed
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring library: gz-waves-hydrodynamics-system
+-- Configuring library: gz-waves-rendering
+-- Configuring library: gz-waves-rendering-ogre2
+-- Configuring library: gz-waves-waves-visual-system
+-- Configuring library: gz-waves-waves-model-system
+-- Configuring library: gz-waves
+-- Adding 13 UNIT tests
+-- Adding 7 PERFORMANCE tests
+-- Found Boost: /opt/homebrew/opt/boost/lib/cmake/Boost-1.87.0/BoostConfig.cmake (found version "1.87.0") found components: iostreams
+-- Adding codecheck target
+-- Build configuration successful
+-- Build type: RelWithDebInfo
+-- Install prefix: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install
+-- Configuring done (45.0s)
+-- Generating done (0.4s)
+-- Build files have been written to: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves
+[  0%] Building CXX object src/CMakeFiles/gz-waves.dir/MeshTools.cc.o
+[  1%] Building CXX object test/gtest_vendor/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  2%] Building CXX object src/CMakeFiles/gz-waves.dir/Algorithm.cc.o
+[  3%] Building CXX object src/CMakeFiles/gz-waves.dir/OceanTile.cc.o
+[  4%] Building CXX object src/CMakeFiles/gz-waves.dir/Grid.cc.o
+[  5%] Building CXX object src/CMakeFiles/gz-waves.dir/Convert.cc.o
+[  6%] Building CXX object src/CMakeFiles/gz-waves.dir/Geometry.cc.o
+[  7%] Building CXX object src/CMakeFiles/gz-waves.dir/PhysicalConstants.cc.o
+[  8%] Building CXX object src/CMakeFiles/gz-waves.dir/Physics.cc.o
+[  9%] Building CXX object src/CMakeFiles/gz-waves.dir/SubMeshWithTangents.cc.o
+[ 10%] Building CXX object src/CMakeFiles/gz-waves.dir/TriangulatedGrid.cc.o
+[ 11%] Linking CXX static library ../../lib/libgtest.a
+[ 11%] Built target gtest
+[ 12%] Building CXX object src/CMakeFiles/gz-waves.dir/LinearRandomFFTWaveSimulationRef.cc.o
+[ 12%] Building CXX object src/CMakeFiles/gz-waves.dir/LinearRandomFFTWaveSimulation.cc.o
+[ 13%] Building CXX object src/CMakeFiles/gz-waves.dir/LinearRandomWaveSimulation.cc.o
+[ 15%] Building CXX object src/CMakeFiles/gz-waves.dir/LinearRegularWaveSimulation.cc.o
+[ 16%] Building CXX object src/CMakeFiles/gz-waves.dir/TrochoidIrregularWaveSimulation.cc.o
+[ 17%] Building CXX object src/CMakeFiles/gz-waves.dir/WaveSpectrum.cc.o
+[ 18%] Building CXX object src/CMakeFiles/gz-waves.dir/WaveSpreadingFunction.cc.o
+[ 19%] Building CXX object src/CMakeFiles/gz-waves.dir/WaveSimulation.cc.o
+[ 20%] Building CXX object src/CMakeFiles/gz-waves.dir/WaveParameters.cc.o
+[ 21%] Building CXX object src/CMakeFiles/gz-waves.dir/WavefieldSampler.cc.o
+[ 22%] Building CXX object src/CMakeFiles/gz-waves.dir/Wavefield.cc.o
+[ 23%] Building CXX object src/CMakeFiles/gz-waves.dir/Utilities.cc.o
+[ 24%] Linking CXX shared library ../lib/libgz-waves.dylib
+[ 24%] Built target gz-waves
+[ 25%] Building CXX object test/gtest_vendor/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 26%] Linking CXX static library ../../lib/libgtest_main.a
+[ 26%] Built target gtest_main
+[ 27%] Building CXX object test/plots/CMakeFiles/PLOT_LinearRandomWaves.dir/PLOT_LinearRandomWaves.cc.o
+[ 29%] Linking CXX executable ../../bin/PLOT_LinearRandomWaves
+[ 29%] Built target PLOT_LinearRandomWaves
+[ 30%] Building CXX object test/plots/CMakeFiles/PLOT_LinearRegularWaves.dir/PLOT_LinearRegularWaves.cc.o
+[ 31%] Linking CXX executable ../../bin/PLOT_LinearRegularWaves
+[ 31%] Built target PLOT_LinearRegularWaves
+[ 33%] Building CXX object test/plots/CMakeFiles/PLOT_WaveSpectrum.dir/PLOT_WaveSpectrum.cc.o
+[ 33%] Building CXX object test/plots/CMakeFiles/PLOT_LinearRandomFFTWaves.dir/PLOT_LinearRandomFFTWaves.cc.o
+[ 34%] Building CXX object src/CMakeFiles/UNIT_Algorithm_TEST.dir/Algorithm_TEST.cc.o
+[ 36%] Linking CXX executable ../../bin/PLOT_WaveSpectrum
+[ 36%] Linking CXX executable ../../bin/PLOT_LinearRandomFFTWaves
+[ 36%] Linking CXX executable ../bin/UNIT_Algorithm_TEST
+[ 36%] Built target PLOT_WaveSpectrum
+[ 36%] Built target PLOT_LinearRandomFFTWaves
+[ 36%] Building CXX object test/plots/CMakeFiles/PLOT_GnuPlotExample.dir/PLOT_GnuPlotExample.cc.o
+[ 37%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-waves-model-system.dir/WavesModel.cc.o
+[ 38%] Built target UNIT_Algorithm_TEST
+[ 38%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/BaseRenderEngineExtension.cc.o
+[ 39%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/DisplacementMap.cc.o
+[ 40%] Building CXX object src/CMakeFiles/UNIT_EigenFFTW_TEST.dir/EigenFFTW_TEST.cc.o
+[ 41%] Linking CXX executable ../../bin/PLOT_GnuPlotExample
+[ 41%] Built target PLOT_GnuPlotExample
+[ 44%] Building CXX object src/CMakeFiles/UNIT_Geometry_TEST.dir/Geometry_TEST.cc.o
+[ 44%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/OceanGeometry.cc.o
+[ 45%] Linking CXX executable ../bin/UNIT_EigenFFTW_TEST
+[ 46%] Building CXX object src/CMakeFiles/UNIT_CGAL_TEST.dir/CGAL_TEST.cc.o
+[ 46%] Built target UNIT_EigenFFTW_TEST
+[ 47%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/OceanVisual.cc.o
+[ 48%] Building CXX object src/CMakeFiles/UNIT_Grid_TEST.dir/Grid_TEST.cc.o
+[ 49%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/RenderEngineExtension.cc.o
+[ 50%] Linking CXX shared library ../../../lib/libgz-waves-waves-model-system.dylib
+[ 50%] Built target gz-waves-waves-model-system
+[ 51%] Linking CXX executable ../bin/UNIT_Geometry_TEST
+[ 52%] Linking CXX executable ../bin/UNIT_Grid_TEST
+[ 52%] Built target UNIT_Geometry_TEST
+[ 52%] Built target UNIT_Grid_TEST
+[ 53%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/RenderEngineExtensionPlugin.cc.o
+[ 54%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/RenderEngineExtensionManager.cc.o
+[ 55%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/SceneNodeFactory.cc.o
+[ 56%] Linking CXX executable ../bin/UNIT_CGAL_TEST
+[ 56%] Built target UNIT_CGAL_TEST
+[ 58%] Linking CXX shared library ../../../lib/libgz-waves-rendering.dylib
+[ 58%] Built target gz-waves-rendering
+[ 59%] Building CXX object src/CMakeFiles/UNIT_TriangulatedGrid_TEST.dir/TriangulatedGrid_TEST.cc.o
+[ 60%] Linking CXX executable ../bin/UNIT_TriangulatedGrid_TEST
+[ 60%] Built target UNIT_TriangulatedGrid_TEST
+[ 61%] Building CXX object src/CMakeFiles/UNIT_Wavefield_TEST.dir/Wavefield_TEST.cc.o
+[ 63%] Building CXX object src/CMakeFiles/UNIT_WaveSpectrum_TEST.dir/WaveSpectrum_TEST.cc.o
+[ 63%] Building CXX object src/CMakeFiles/UNIT_Physics_TEST.dir/Physics_TEST.cc.o
+[ 64%] Linking CXX executable ../bin/UNIT_Wavefield_TEST
+[ 65%] Building CXX object src/CMakeFiles/UNIT_MeshTools_TEST.dir/MeshTools_TEST.cc.o
+[ 66%] Building CXX object src/CMakeFiles/UNIT_LinearRandomFFTWaveSimulation_TEST.dir/LinearRandomFFTWaveSimulation_TEST.cc.o
+[ 67%] Linking CXX executable ../bin/UNIT_WaveSpectrum_TEST
+[ 67%] Built target UNIT_Wavefield_TEST
+[ 67%] Building CXX object src/CMakeFiles/UNIT_LinearRegularWaveSimulation_TEST.dir/LinearRegularWaveSimulation_TEST.cc.o
+[ 67%] Built target UNIT_WaveSpectrum_TEST
+[ 68%] Building CXX object src/systems/hydrodynamics/CMakeFiles/gz-waves-hydrodynamics-system.dir/Collision.cc.o
+[ 69%] Building CXX object src/systems/dynamic/CMakeFiles/gz-waves-dynamic-geometry-system.dir/DynamicGeometry.cc.o
+[ 70%] Building CXX object src/CMakeFiles/UNIT_WaveSpreadingFunction_TEST.dir/WaveSpreadingFunction_TEST.cc.o
+[ 70%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2DisplacementMap.cc.o
+[ 72%] Linking CXX executable ../bin/UNIT_LinearRandomFFTWaveSimulation_TEST
+[ 72%] Built target UNIT_LinearRandomFFTWaveSimulation_TEST
+[ 72%] Linking CXX executable ../bin/UNIT_WaveSpreadingFunction_TEST
+[ 72%] Built target UNIT_WaveSpreadingFunction_TEST
+[ 72%] Building CXX object src/systems/hydrodynamics/CMakeFiles/gz-waves-hydrodynamics-system.dir/Hydrodynamics.cc.o
+[ 73%] Linking CXX executable ../bin/UNIT_Physics_TEST
+[ 73%] Built target UNIT_Physics_TEST
+[ 74%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2DynamicMesh.cc.o
+[ 75%] Linking CXX executable ../bin/UNIT_MeshTools_TEST
+[ 76%] Linking CXX executable ../bin/UNIT_LinearRegularWaveSimulation_TEST
+[ 76%] Built target UNIT_MeshTools_TEST
+[ 76%] Built target UNIT_LinearRegularWaveSimulation_TEST
+[ 77%] Linking CXX shared library ../../../lib/libgz-waves-dynamic-geometry-system.dylib
+[ 78%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2OceanGeometry.cc.o
+[ 78%] Built target gz-waves-dynamic-geometry-system
+[ 79%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2OceanVisual.cc.o
+[ 80%] Linking CXX shared library ../../../lib/libgz-waves-hydrodynamics-system.dylib
+[ 80%] Built target gz-waves-hydrodynamics-system
+[ 81%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2RenderEngineExtension.cc.o
+[ 82%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2SceneNodeFactory.cc.o
+[ 83%] Linking CXX shared library ../../../lib/libgz-waves-rendering-ogre2.dylib
+[ 83%] Built target gz-waves-rendering-ogre2
+[ 84%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRegularWaveSimDisplacements.dir/LinearRegularWaveSimDisplacements.cc.o
+[ 86%] Linking CXX executable ../../bin/PERFORMANCE_LinearRegularWaveSimDisplacements
+[ 86%] Built target PERFORMANCE_LinearRegularWaveSimDisplacements
+[ 87%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_WaveSpectrumECKV.dir/WaveSpectrumECKV.cc.o
+[ 88%] Linking CXX executable ../../bin/PERFORMANCE_WaveSpectrumECKV
+[ 88%] Built target PERFORMANCE_WaveSpectrumECKV
+[ 89%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimElevationAt.dir/LinearRandomFFTWaveSimElevationAt.cc.o
+[ 90%] Linking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimElevationAt
+[ 90%] Built target PERFORMANCE_LinearRandomFFTWaveSimElevationAt
+[ 91%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimDisplacements.dir/LinearRandomFFTWaveSimDisplacements.cc.o
+[ 92%] Linking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimDisplacements
+[ 92%] Built target PERFORMANCE_LinearRandomFFTWaveSimDisplacements
+[ 93%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes.dir/LinearRandomFFTWaveSimCurrentAmplitudes.cc.o
+[ 94%] Linking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes
+[ 94%] Built target PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes
+[ 97%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_EigenReturnByValue.dir/EigenReturnByValue.cc.o
+[ 97%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-waves-visual-system.dir/WavesVisual.cc.o
+[ 97%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes.dir/LinearRandomFFTWaveSimBaseAmplitudes.cc.o
+[ 98%] Linking CXX executable ../../bin/PERFORMANCE_EigenReturnByValue
+[ 98%] Linking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes
+[ 98%] Built target PERFORMANCE_EigenReturnByValue
+[ 98%] Built target PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes
+[100%] Linking CXX shared library ../../../lib/libgz-waves-waves-visual-system.dylib
+[100%] Built target gz-waves-waves-visual-system
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-all/gz-waves-all-config.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-all/gz-waves-all-config-version.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-all/gz-waves-all-targets.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/detail/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves.1.0.0.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves.1.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-config.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-config-version.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-targets.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-targets-relwithdebinfo.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves.pc
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/dynamic-geometry-system/detail/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/dynamic-geometry-system/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-dynamic-geometry-system.1.0.0.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-dynamic-geometry-system.1.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-dynamic-geometry-system.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-config.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-config-version.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-targets.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-targets-relwithdebinfo.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-dynamic-geometry-system.pc
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/hydrodynamics-system/detail/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/hydrodynamics-system/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-hydrodynamics-system.1.0.0.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-hydrodynamics-system.1.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-hydrodynamics-system.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-config.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-config-version.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-targets.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-targets-relwithdebinfo.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-hydrodynamics-system.pc
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering/detail/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering.1.0.0.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering.1.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-config.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-config-version.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-targets.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-targets-relwithdebinfo.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-rendering.pc
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering-ogre2/detail/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering-ogre2/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering-ogre2.1.0.0.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering-ogre2.1.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering-ogre2.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-config.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-config-version.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-targets.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-targets-relwithdebinfo.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-rendering-ogre2.pc
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-visual-system/detail/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-visual-system/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-visual-system.1.0.0.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-visual-system.1.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-visual-system.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-config.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-config-version.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-targets.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-targets-relwithdebinfo.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-waves-visual-system.pc
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-model-system/detail/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-model-system/Export.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-model-system.1.0.0.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-model-system.1.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-model-system.dylib
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-config.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-config-version.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-targets.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-targets-relwithdebinfo.cmake
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-waves-model-system.pc
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/components/Wavefield.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Algorithm.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/CGALTypes.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Convert.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Geometry.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Grid.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/LinearRandomFFTWaveSimulation.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/LinearRandomWaveSimulation.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/LinearRegularWaveSimulation.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/MeshTools.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/OceanTile.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/PhysicalConstants.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Physics.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/TriangulatedGrid.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/TrochoidIrregularWaveSimulation.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Types.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Utilities.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveParameters.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveSimulation.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveSpectrum.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveSpreadingFunction.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Wavefield.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WavefieldSampler.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/config.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/components.hh
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_GnuPlotExample
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_LinearRandomFFTWaves
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_LinearRandomWaves
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_LinearRegularWaves
+-- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_WaveSpectrum

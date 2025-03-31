@@ -1,0 +1,3 @@
+source;share/waves_models/environment/ament_prefix_path.sh
+source;share/waves_models/environment/path.sh
+source;share/waves_models/environment/waves_models.dsv

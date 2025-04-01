@@ -380,10 +380,10 @@
         
         <enable>wamv_move::base_link</enable>
 
-        <enable>wamv::left_engine_link</enable>
-        <enable>wamv::left_propeller_link</enable>
-        <enable>wamv::right_engine_link</enable>
-        <enable>wamv::right_propeller_link</enable>
+        <enable>wamv_move::left_engine_link</enable>
+        <enable>wamv_move::left_propeller_link</enable>
+        <enable>wamv_move::right_engine_link</enable>
+        <enable>wamv_move::right_propeller_link</enable>
 
         <hydrodynamics>
           <damping_on>1</damping_on>

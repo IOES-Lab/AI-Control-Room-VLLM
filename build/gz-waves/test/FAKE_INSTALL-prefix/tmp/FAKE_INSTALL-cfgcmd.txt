@@ -1,1 +1,0 @@
-cmd='/opt/homebrew/bin/cmake;-DBUILD_TESTING=OFF;-DCMAKE_INSTALL_PREFIX=/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/fake/install;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

@@ -1,0 +1,17 @@
+[1.511s] Invoking command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control': PYTHONPATH=/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control/prefix_override:/Users/kimminjung/.ros2_venv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /Users/kimminjung/.ros2_venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control/build --no-deps symlink_data
+[1.991s] running develop
+[2.159s] running egg_info
+[2.159s] writing ros_gz_ai_control.egg-info/PKG-INFO
+[2.159s] writing dependency_links to ros_gz_ai_control.egg-info/dependency_links.txt
+[2.159s] writing entry points to ros_gz_ai_control.egg-info/entry_points.txt
+[2.160s] writing requirements to ros_gz_ai_control.egg-info/requires.txt
+[2.160s] writing top-level names to ros_gz_ai_control.egg-info/top_level.txt
+[2.160s] reading manifest file 'ros_gz_ai_control.egg-info/SOURCES.txt'
+[2.165s] writing manifest file 'ros_gz_ai_control.egg-info/SOURCES.txt'
+[2.172s] running build_ext
+[2.172s] Creating /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/python3.11/site-packages/ros-gz-ai-control.egg-link (link to .)
+[2.175s] Installing tf_broadcaster script to /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/ros_gz_ai_control
+[2.175s] 
+[2.175s] Installed /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control
+[2.175s] running symlink_data
+[2.195s] Invoked command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control' returned '0': PYTHONPATH=/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control/prefix_override:/Users/kimminjung/.ros2_venv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /Users/kimminjung/.ros2_venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/ros_gz_ai_control/build --no-deps symlink_data

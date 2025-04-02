@@ -317,8 +317,8 @@ ros2 launch ros_gz_ai_control ai_control.launch.py world:=waves robot:=wamv
   - 카메라 가제보 메시지 토픽을 ROS로 변환하는 것 만들어야함
   - `gz-waves-models>models>wamv>config>robot_config.py` 파일에 카메라 이미지 메시지 추가
   - `rviz2`로 카메라 이미지 확인
-- 추력 명령어 파이썬 스크립트 만들기
-- 카메라의 이미지를 추력 명령어 스크립트에서 받아오기
+- 컨트롤 파이썬 노드 만들기
+- 카메라의 이미지를 컨트롤 파이썬 노드에서 받아오기
 - LLM으로 전달해서 사진에 대한 설명 받아보기
 - LLM으로 추력 명령어 보내보기
 - 모든걸 연결하기

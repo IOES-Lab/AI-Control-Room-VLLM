@@ -1,0 +1,783 @@
+[0.689s] Invoking command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves': SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/gz-waves -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=ON -DCMAKE_CXX_STANDARD=17 -DCMAKE_MACOSX_RPATH=FALSE -DCMAKE_CXX_FLAGS=-Wno-duplicate-libraries -DCMAKE_INSTALL_NAME_DIR=/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib -DCMAKE_INCLUDE_PATH=/Users/kimminjung/ros2_jazzy/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math -DCMAKE_INSTALL_PREFIX=/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install
+[3.672s] -- The C compiler identification is AppleClang 16.0.0.16000026
+[4.080s] -- The CXX compiler identification is AppleClang 16.0.0.16000026
+[4.100s] -- Detecting C compiler ABI info
+[5.444s] -- Detecting C compiler ABI info - done
+[5.531s] -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+[5.532s] -- Detecting C compile features
+[5.532s] -- Detecting C compile features - done
+[5.538s] -- Detecting CXX compiler ABI info
+[6.877s] -- Detecting CXX compiler ABI info - done
+[6.958s] -- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+[6.958s] -- Detecting CXX compile features
+[6.959s] -- Detecting CXX compile features - done
+[7.000s] -- gz-waves version 1.0.0
+[7.000s] -- Operating system is Apple MacOS X
+[16.445s] CMake Warning (dev) at /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves/_deps/gnuplot-iostream-src/CMakeLists.txt:9 (find_package):
+[16.445s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[16.445s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[16.445s]   set the policy and suppress this warning.
+[16.445s] 
+[16.445s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[16.445s] 
+[16.892s] -- Found Boost: /opt/homebrew/opt/boost/lib/cmake/Boost-1.87.0/BoostConfig.cmake (found version "1.87.0") found components: iostreams system filesystem
+[16.918s] -- Looking for gz-math7 -- found version 7.5.2
+[16.919s] -- Searching for dependencies of gz-math7
+[16.942s] -- Looking for gz-utils2 -- found version 2.2.1
+[16.942s] -- Searching for dependencies of gz-utils2
+[16.943s] -- Searching for <gz-math7> component [eigen3]
+[17.010s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[17.010s] -- Searching for dependencies of gz-math7-eigen3
+[17.088s] -- Looking for gz-math7 - found
+[17.088s] 
+[17.114s] -- Looking for gz-plugin2 -- found version 2.0.4
+[17.114s] -- Searching for dependencies of gz-plugin2
+[17.114s] -- Looking for gz-utils2 -- found version 2.2.1
+[17.114s] -- Searching for dependencies of gz-utils2
+[17.114s] -- Searching for <gz-utils2> component [cli]
+[17.176s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[17.176s] -- Searching for dependencies of gz-utils2-cli
+[17.178s] -- Searching for <gz-plugin2> component [loader]
+[17.239s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[17.239s] -- Searching for dependencies of gz-plugin2-loader
+[17.240s] -- Searching for <gz-plugin2> component [register]
+[17.301s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[17.301s] -- Searching for dependencies of gz-plugin2-register
+[17.302s] -- Looking for gz-plugin2 - found
+[17.302s] 
+[17.326s] -- Looking for gz-common5 -- found version 5.7.1
+[17.326s] -- Searching for dependencies of gz-common5
+[17.327s] -- Looking for gz-utils2 -- found version 2.2.1
+[17.617s] -- Looking for dlfcn.h - found
+[17.634s] -- Looking for libdl - found
+[17.635s] -- Found DL: TRUE
+[17.635s] -- Found UUID: TRUE
+[17.636s] -- Searching for <gz-common5> component [graphics]
+[17.697s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[17.697s] -- Searching for dependencies of gz-common5-graphics
+[17.697s] -- Looking for gz-math7 -- found version 7.5.2
+[17.723s] -- Found GzAssimp: TRUE (found version "5.4.3")
+[17.724s] -- Searching for <gz-common5> component [events]
+[17.784s] -- Looking for gz-common5-events -- found version 5.7.1
+[17.784s] -- Searching for dependencies of gz-common5-events
+[17.785s] -- Looking for gz-math7 -- found version 7.5.2
+[17.786s] -- Looking for gz-common5 - found
+[17.786s] 
+[17.809s] -- Looking for gz-msgs10 -- found version 10.3.2
+[17.809s] -- Searching for dependencies of gz-msgs10
+[18.000s] -- Found ZLIB: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libz.tbd (found version "1.2.12")
+[18.061s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[19.314s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[19.314s] -- Found Threads: TRUE
+[19.391s] -- Looking for gz-utils2 -- found version 2.2.1
+[19.391s] -- Looking for gz-math7 -- found version 7.5.2
+[19.478s] -- Checking for module 'tinyxml2'
+[19.828s] --   Found tinyxml2, version 10.1.0
+[24.379s] -- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.13/bin/python3.13 (found version "3.13.2") found components: Interpreter
+[24.380s] -- Looking for gz-msgs10 - found
+[24.380s] 
+[24.401s] -- Looking for gz-transport13 -- found version 13.4.1
+[24.401s] -- Searching for dependencies of gz-transport13
+[24.457s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[24.503s] -- Checking for module 'libzmq >= 4'
+[24.732s] --   Found libzmq, version 4.3.5
+[25.332s] -- Found ZeroMQ: TRUE (Required is at least version "4")
+[25.381s] -- Looking for gz-utils2 -- found version 2.2.1
+[25.382s] -- Looking for gz-msgs10 -- found version 10.3.2
+[25.382s] -- Looking for gz-transport13 - found
+[25.382s] 
+[25.402s] -- Looking for gz-rendering8 -- found version 8.2.2
+[25.402s] -- Searching for dependencies of gz-rendering8
+[25.403s] -- Looking for gz-math7 -- found version 7.5.2
+[25.403s] -- Looking for gz-common5 -- found version 5.7.1
+[25.403s] -- Searching for dependencies of gz-common5
+[25.403s] -- Looking for gz-utils2 -- found version 2.2.1
+[25.403s] -- Looking for dlfcn.h - found
+[25.403s] -- Looking for libdl - found
+[25.405s] -- Searching for <gz-common5> component [graphics]
+[25.405s] -- Searching for <gz-common5> component [events]
+[25.405s] -- Searching for <gz-common5> component [geospatial]
+[25.451s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[25.451s] -- Searching for dependencies of gz-common5-geospatial
+[25.452s] -- Looking for gz-math7 -- found version 7.5.2
+[25.452s] -- Looking for gz-common5 -- found version 5.7.1
+[25.453s] -- Looking for gz-plugin2 -- found version 2.0.4
+[25.453s] -- Searching for dependencies of gz-plugin2
+[25.453s] -- Looking for gz-utils2 -- found version 2.2.1
+[25.453s] -- Searching for <gz-plugin2> component [all]
+[25.498s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[25.499s] -- Looking for gz-plugin2 -- found version 2.0.4
+[25.500s] -- Looking for gz-utils2 -- found version 2.2.1
+[25.500s] -- Looking for gz-rendering8 - found
+[25.500s] 
+[25.526s] -- Looking for gz-sim8 -- found version 8.9.0
+[25.526s] -- Searching for dependencies of gz-sim8
+[25.545s] -- Looking for sdformat14 -- found version 14.7.0
+[25.545s] -- Searching for dependencies of sdformat14
+[25.593s] -- Looking for gz-math7 -- found version 7.5.2
+[25.593s] -- Looking for gz-utils2 -- found version 2.2.1
+[25.594s] -- Looking for gz-plugin2 -- found version 2.0.4
+[25.594s] -- Looking for gz-transport13 -- found version 13.4.1
+[25.594s] -- Searching for dependencies of gz-transport13
+[25.647s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[25.693s] -- Checking for module 'libzmq >= 4'
+[25.920s] --   Found libzmq, version 4.3.5
+[26.521s] -- Looking for gz-utils2 -- found version 2.2.1
+[26.521s] -- Looking for gz-msgs10 -- found version 10.3.2
+[26.521s] -- Searching for <gz-transport13> component [log]
+[26.568s] -- Looking for gz-transport13-log -- found version 13.4.1
+[26.568s] -- Searching for dependencies of gz-transport13-log
+[26.569s] -- Searching for <gz-transport13> component [parameters]
+[26.616s] -- Looking for gz-transport13-parameters -- found version 13.4.1
+[26.616s] -- Searching for dependencies of gz-transport13-parameters
+[26.617s] -- Looking for gz-msgs10 -- found version 10.3.2
+[26.617s] -- Looking for gz-common5 -- found version 5.7.1
+[26.617s] -- Searching for dependencies of gz-common5
+[26.618s] -- Looking for gz-utils2 -- found version 2.2.1
+[26.618s] -- Looking for dlfcn.h - found
+[26.618s] -- Looking for libdl - found
+[26.619s] -- Searching for <gz-common5> component [av]
+[26.664s] -- Looking for gz-common5-av -- found version 5.7.1
+[26.664s] -- Searching for dependencies of gz-common5-av
+[26.711s] -- Checking for module 'libswscale'
+[26.940s] --   Found libswscale, version 8.3.100
+[27.540s] -- Found SWSCALE: TRUE
+[27.586s] -- Checking for module 'libavdevice >= 56.4.100'
+[27.816s] --   Found libavdevice, version 61.3.100
+[28.430s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100")
+[28.476s] -- Checking for module 'libavformat'
+[28.703s] --   Found libavformat, version 61.7.100
+[29.308s] -- Found AVFORMAT: TRUE
+[29.353s] -- Checking for module 'libavcodec'
+[29.580s] --   Found libavcodec, version 61.19.101
+[30.183s] -- Found AVCODEC: TRUE
+[30.228s] -- Checking for module 'libavutil'
+[30.455s] --   Found libavutil, version 59.39.100
+[31.052s] -- Found AVUTIL: TRUE
+[31.054s] -- Searching for <gz-common5> component [events]
+[31.054s] -- Searching for <gz-common5> component [graphics]
+[31.054s] -- Searching for <gz-common5> component [io]
+[31.100s] -- Looking for gz-common5-io -- found version 5.7.1
+[31.100s] -- Searching for dependencies of gz-common5-io
+[31.101s] -- Searching for <gz-common5> component [profiler]
+[31.145s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[31.145s] -- Searching for dependencies of gz-common5-profiler
+[31.191s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[31.191s] -- Searching for dependencies of gz-fuel_tools9
+[32.510s] -- Found CURL: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libcurl.tbd (found version "8.7.1")
+[32.577s] -- Checking for module 'jsoncpp'
+[32.807s] --   Found jsoncpp, version 1.9.6
+[33.406s] -- Found JSONCPP: TRUE
+[33.504s] -- Checking for module 'yaml-0.1'
+[33.750s] --   Found yaml-0.1, version 0.2.5
+[34.348s] -- Found YAML: TRUE
+[34.394s] -- Checking for module 'libzip'
+[34.621s] --   Found libzip, version 1.11.3
+[35.219s] -- Found ZIP: TRUE
+[35.220s] -- Looking for gz-utils2 -- found version 2.2.1
+[35.220s] -- Looking for gz-common5 -- found version 5.7.1
+[35.220s] -- Searching for dependencies of gz-common5
+[35.220s] -- Looking for gz-utils2 -- found version 2.2.1
+[35.220s] -- Looking for dlfcn.h - found
+[35.221s] -- Looking for libdl - found
+[35.222s] -- Searching for <gz-common5> component [testing]
+[35.268s] -- Looking for gz-common5-testing -- found version 5.7.1
+[35.268s] -- Searching for dependencies of gz-common5-testing
+[35.269s] -- Looking for gz-math7 -- found version 7.5.2
+[35.270s] -- Looking for gz-msgs10 -- found version 10.3.2
+[35.290s] -- Looking for gz-gui8 -- found version 8.4.0
+[35.290s] -- Searching for dependencies of gz-gui8
+[35.338s] -- Looking for gz-utils2 -- found version 2.2.1
+[35.338s] -- Looking for gz-math7 -- found version 7.5.2
+[35.339s] -- Looking for gz-common5 -- found version 5.7.1
+[35.339s] -- Looking for gz-plugin2 -- found version 2.0.4
+[35.339s] -- Looking for gz-transport13 -- found version 13.4.1
+[35.340s] -- Looking for gz-rendering8 -- found version 8.2.2
+[35.340s] -- Looking for gz-msgs10 -- found version 10.3.2
+[35.591s] -- Looking for gz-physics7 -- found version 7.5.0
+[35.591s] -- Searching for dependencies of gz-physics7
+[35.591s] -- Looking for gz-common5 -- found version 5.7.1
+[35.591s] -- Looking for gz-math7 -- found version 7.5.2
+[35.591s] -- Looking for gz-plugin2 -- found version 2.0.4
+[35.592s] -- Looking for gz-utils2 -- found version 2.2.1
+[35.593s] -- Searching for <gz-physics7> component [heightmap]
+[35.642s] -- Looking for gz-physics7-heightmap -- found version 7.5.0
+[35.642s] -- Searching for dependencies of gz-physics7-heightmap
+[35.642s] -- Looking for gz-common5 -- found version 5.7.1
+[35.643s] -- Searching for <gz-physics7> component [mesh]
+[35.692s] -- Looking for gz-physics7-mesh -- found version 7.5.0
+[35.693s] -- Searching for dependencies of gz-physics7-mesh
+[35.693s] -- Looking for gz-common5 -- found version 5.7.1
+[35.693s] -- Searching for <gz-physics7> component [sdf]
+[35.744s] -- Looking for gz-physics7-sdf -- found version 7.5.0
+[35.744s] -- Searching for dependencies of gz-physics7-sdf
+[35.744s] -- Looking for sdformat14 -- found version 14.7.0
+[35.764s] -- Looking for gz-sensors8 -- found version 8.2.2
+[35.764s] -- Searching for dependencies of gz-sensors8
+[35.766s] -- Looking for gz-math7 -- found version 7.5.2
+[35.766s] -- Looking for gz-common5 -- found version 5.7.1
+[35.767s] -- Looking for gz-transport13 -- found version 13.4.1
+[35.767s] -- Looking for gz-rendering8 -- found version 8.2.2
+[35.767s] -- Looking for gz-msgs10 -- found version 10.3.2
+[35.767s] -- Looking for sdformat14 -- found version 14.7.0
+[35.768s] -- Searching for <gz-sensors8> component [air_pressure]
+[35.814s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[35.814s] -- Searching for dependencies of gz-sensors8-air_pressure
+[35.815s] -- Searching for <gz-sensors8> component [air_speed]
+[35.860s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[35.860s] -- Searching for dependencies of gz-sensors8-air_speed
+[35.860s] -- Searching for <gz-sensors8> component [altimeter]
+[35.905s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[35.905s] -- Searching for dependencies of gz-sensors8-altimeter
+[35.906s] -- Searching for <gz-sensors8> component [imu]
+[35.951s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[35.951s] -- Searching for dependencies of gz-sensors8-imu
+[35.952s] -- Searching for <gz-sensors8> component [force_torque]
+[35.997s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[35.997s] -- Searching for dependencies of gz-sensors8-force_torque
+[35.997s] -- Searching for <gz-sensors8> component [logical_camera]
+[36.043s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[36.043s] -- Searching for dependencies of gz-sensors8-logical_camera
+[36.043s] -- Searching for <gz-sensors8> component [magnetometer]
+[36.088s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[36.089s] -- Searching for dependencies of gz-sensors8-magnetometer
+[36.089s] -- Searching for <gz-sensors8> component [navsat]
+[36.134s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[36.134s] -- Searching for dependencies of gz-sensors8-navsat
+[36.134s] -- Searching for <gz-sensors8> component [dvl]
+[36.178s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[36.179s] -- Searching for dependencies of gz-sensors8-dvl
+[36.179s] -- Looking for gz-sensors8 -- found version 8.2.2
+[36.179s] -- Searching for dependencies of gz-sensors8
+[36.181s] -- Looking for gz-math7 -- found version 7.5.2
+[36.181s] -- Looking for gz-common5 -- found version 5.7.1
+[36.181s] -- Looking for gz-transport13 -- found version 13.4.1
+[36.181s] -- Looking for gz-rendering8 -- found version 8.2.2
+[36.182s] -- Looking for gz-msgs10 -- found version 10.3.2
+[36.182s] -- Looking for sdformat14 -- found version 14.7.0
+[36.182s] -- Searching for <gz-sensors8> component [rendering]
+[36.227s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[36.227s] -- Searching for dependencies of gz-sensors8-rendering
+[36.228s] -- Searching for <gz-sensors8> component [rendering]
+[36.228s] -- Searching for <gz-sensors8> component [lidar]
+[36.273s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[36.273s] -- Searching for dependencies of gz-sensors8-lidar
+[36.273s] -- Looking for gz-sensors8 -- found version 8.2.2
+[36.274s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[36.319s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[36.319s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[36.319s] -- Looking for gz-sensors8 -- found version 8.2.2
+[36.320s] -- Searching for <gz-sensors8> component [camera]
+[36.364s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[36.364s] -- Searching for dependencies of gz-sensors8-camera
+[36.365s] -- Looking for gz-sensors8 -- found version 8.2.2
+[36.365s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[36.410s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[36.411s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[36.411s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[36.457s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[36.457s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[36.457s] -- Searching for <gz-sensors8> component [depth_camera]
+[36.504s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[36.504s] -- Searching for dependencies of gz-sensors8-depth_camera
+[36.504s] -- Looking for gz-sensors8 -- found version 8.2.2
+[36.505s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[36.550s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[36.550s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[36.550s] -- Looking for gz-sensors8 -- found version 8.2.2
+[36.551s] -- Searching for <gz-sensors8> component [thermal_camera]
+[36.596s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[36.596s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[36.597s] -- Looking for gz-sensors8 -- found version 8.2.2
+[36.597s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[36.643s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[36.643s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[36.644s] -- Looking for gz-rendering8 -- found version 8.2.2
+[36.644s] -- Looking for gz-math7 -- found version 7.5.2
+[36.644s] -- Looking for gz-utils2 -- found version 2.2.1
+[36.646s] -- Looking for gz-sim8 - found
+[36.646s] 
+[36.647s] -- Looking for sdformat14 -- found version 14.7.0
+[36.647s] -- Looking for sdformat14 - found
+[36.647s] 
+[36.647s] -- Compiling against Gazebo Harmonic
+[37.645s] -- Checking for module 'OGRE-RTShaderSystem >= 1.9'
+[37.861s] --   Found OGRE-RTShaderSystem, version 1.9.0
+[38.521s] -- Checking for module 'OGRE-Terrain >= 1.9'
+[38.745s] --   Found OGRE-Terrain, version 1.9.0
+[39.415s] -- Checking for module 'OGRE-Overlay >= 1.9'
+[39.635s] --   Found OGRE-Overlay, version 1.9.0
+[40.302s] -- Checking for module 'OGRE-Paging >= 1.9'
+[40.522s] --   Found OGRE-Paging, version 1.9.0
+[41.187s] -- Looking for GzOGRE - found
+[41.187s] 
+[41.233s] -- Looking for OGRE using the name: OGRE2
+[42.179s] --   + component HlmsPbs: found
+[42.194s] --   + component HlmsUnlit: found
+[42.208s] --   + component Overlay: found
+[42.222s] --   + component PlanarReflections: found
+[42.222s] -- Looking for GzOGRE2 - found
+[42.222s] 
+[42.446s] -- Targeting Unix Makefiles
+[42.446s] -- Using /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ compiler.
+[42.491s] -- Running in macOS DARWIN_VERSION=24
+[42.573s] -- Found GMP: /opt/homebrew/lib/libgmp.dylib
+[42.636s] -- Found MPFR: /opt/homebrew/lib/libmpfr.dylib
+[42.697s] CMake Warning (dev) at /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGAL_SetupBoost.cmake:20 (find_package):
+[42.697s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[42.697s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[42.698s]   set the policy and suppress this warning.
+[42.698s] 
+[42.698s] Call Stack (most recent call first):
+[42.698s]   /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGAL_SetupCGALDependencies.cmake:48 (include)
+[42.698s]   /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGALConfig.cmake:169 (include)
+[42.698s]   CMakeLists.txt:134 (find_package)
+[42.698s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[42.698s] 
+[42.700s] -- Found Boost: /opt/homebrew/opt/boost/lib/cmake/Boost-1.87.0/BoostConfig.cmake (found suitable version "1.87.0", minimum required is "1.72")
+[42.700s] -- Boost include dirs: /opt/homebrew/Cellar/boost/1.87.0_1/include
+[42.700s] -- Boost libraries:    
+[42.701s] CMake Warning (dev) at /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGAL_SetupCGAL_CoreDependencies.cmake:51 (find_package):
+[42.701s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[42.701s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[42.701s]   set the policy and suppress this warning.
+[42.701s] 
+[42.701s] Call Stack (most recent call first):
+[42.701s]   /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGAL_setup_target_dependencies.cmake:5 (CGAL_setup_CGAL_Core_dependencies)
+[42.701s]   /opt/homebrew/opt/cgal/lib/cmake/CGAL/CGALConfig.cmake:192 (CGAL_setup_target_dependencies)
+[42.701s]   CMakeLists.txt:134 (find_package)
+[42.701s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[42.701s] 
+[42.704s] CGAL_VERSION_MAJOR: 6
+[43.047s] -- Configuring library: gz-waves-dynamic-geometry-system
+[43.049s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[43.939s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Failed
+[43.940s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[44.847s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[44.847s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[45.730s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[45.733s] -- Configuring library: gz-waves-hydrodynamics-system
+[45.736s] -- Configuring library: gz-waves-rendering
+[45.739s] -- Configuring library: gz-waves-rendering-ogre2
+[45.742s] -- Configuring library: gz-waves-waves-visual-system
+[45.745s] -- Configuring library: gz-waves-waves-model-system
+[45.747s] -- Configuring library: gz-waves
+[45.751s] -- Adding 13 UNIT tests
+[45.768s] -- Adding 7 PERFORMANCE tests
+[45.769s] CMake Warning (dev) at test/plots/CMakeLists.txt:6 (find_package):
+[45.769s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[45.769s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[45.769s]   set the policy and suppress this warning.
+[45.769s] 
+[45.769s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[45.769s] 
+[45.775s] -- Found Boost: /opt/homebrew/opt/boost/lib/cmake/Boost-1.87.0/BoostConfig.cmake (found version "1.87.0") found components: iostreams
+[45.788s] -- Adding codecheck target
+[45.788s] -- Build configuration successful
+[45.788s] -- Build type: RelWithDebInfo
+[45.788s] -- Install prefix: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install
+[45.789s] -- Configuring done (45.0s)
+[46.238s] -- Generating done (0.4s)
+[46.285s] -- Build files have been written to: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves
+[46.293s] Invoked command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves' returned '0': SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/gz-waves -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTING=ON -DCMAKE_CXX_STANDARD=17 -DCMAKE_MACOSX_RPATH=FALSE -DCMAKE_CXX_FLAGS=-Wno-duplicate-libraries -DCMAKE_INSTALL_NAME_DIR=/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib -DCMAKE_INCLUDE_PATH=/Users/kimminjung/ros2_jazzy/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math -DCMAKE_INSTALL_PREFIX=/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install
+[46.296s] Invoking command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves': SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves -- -j8 -l8
+[47.551s] [  0%] Building CXX object src/CMakeFiles/gz-waves.dir/MeshTools.cc.o
+[47.551s] [  1%] Building CXX object test/gtest_vendor/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[47.551s] [  2%] Building CXX object src/CMakeFiles/gz-waves.dir/Algorithm.cc.o
+[47.552s] [  3%] Building CXX object src/CMakeFiles/gz-waves.dir/OceanTile.cc.o
+[47.553s] [  4%] Building CXX object src/CMakeFiles/gz-waves.dir/Grid.cc.o
+[47.554s] [  5%] Building CXX object src/CMakeFiles/gz-waves.dir/Convert.cc.o
+[47.573s] [  6%] Building CXX object src/CMakeFiles/gz-waves.dir/Geometry.cc.o
+[47.749s] [  7%] Building CXX object src/CMakeFiles/gz-waves.dir/PhysicalConstants.cc.o
+[48.299s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[48.302s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[48.302s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[48.303s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[48.304s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[48.304s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[48.408s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[48.409s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[48.439s] 1 warning generated.
+[48.647s] [  8%] Building CXX object src/CMakeFiles/gz-waves.dir/Physics.cc.o
+[48.788s] 1 warning generated.
+[48.937s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[49.018s] [  9%] Building CXX object src/CMakeFiles/gz-waves.dir/SubMeshWithTangents.cc.o
+[49.281s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[50.118s] 1 warning generated.
+[50.328s] [ 10%] Building CXX object src/CMakeFiles/gz-waves.dir/TriangulatedGrid.cc.o
+[50.611s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[51.137s] 1 warning generated.
+[52.396s] 1 warning generated.
+[52.847s] 1 warning generated.
+[53.373s] 1 warning generated.
+[53.998s] 1 warning generated.
+[54.493s] 1 warning generated.
+[54.707s] 1 warning generated.
+[54.861s] [ 11%] Linking CXX static library ../../lib/libgtest.a
+[55.455s] [ 11%] Built target gtest
+[56.167s] 1 warning generated.
+[56.309s] [ 12%] Building CXX object src/CMakeFiles/gz-waves.dir/LinearRandomFFTWaveSimulationRef.cc.o
+[56.492s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[57.436s] 1 warning generated.
+[57.578s] [ 12%] Building CXX object src/CMakeFiles/gz-waves.dir/LinearRandomFFTWaveSimulation.cc.o
+[57.760s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[59.010s] 1 warning generated.
+[59.148s] [ 13%] Building CXX object src/CMakeFiles/gz-waves.dir/LinearRandomWaveSimulation.cc.o
+[59.331s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[60.176s] 1 warning generated.
+[60.312s] [ 15%] Building CXX object src/CMakeFiles/gz-waves.dir/LinearRegularWaveSimulation.cc.o
+[60.496s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[63.479s] 1 warning generated.
+[63.619s] [ 16%] Building CXX object src/CMakeFiles/gz-waves.dir/TrochoidIrregularWaveSimulation.cc.o
+[63.802s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[64.599s] 1 warning generated.
+[64.735s] [ 17%] Building CXX object src/CMakeFiles/gz-waves.dir/WaveSpectrum.cc.o
+[64.918s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[65.459s] 1 warning generated.
+[65.603s] [ 18%] Building CXX object src/CMakeFiles/gz-waves.dir/WaveSpreadingFunction.cc.o
+[65.817s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[66.354s] 1 warning generated.
+[66.491s] [ 19%] Building CXX object src/CMakeFiles/gz-waves.dir/WaveSimulation.cc.o
+[66.673s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[67.161s] 1 warning generated.
+[67.299s] [ 20%] Building CXX object src/CMakeFiles/gz-waves.dir/WaveParameters.cc.o
+[67.481s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[70.426s] 1 warning generated.
+[70.571s] [ 21%] Building CXX object src/CMakeFiles/gz-waves.dir/WavefieldSampler.cc.o
+[70.757s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[73.614s] 1 warning generated.
+[73.758s] [ 22%] Building CXX object src/CMakeFiles/gz-waves.dir/Wavefield.cc.o
+[73.945s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[77.017s] 1 warning generated.
+[77.159s] [ 23%] Building CXX object src/CMakeFiles/gz-waves.dir/Utilities.cc.o
+[77.341s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[80.256s] 1 warning generated.
+[80.398s] [ 24%] Linking CXX shared library ../lib/libgz-waves.dylib
+[81.015s] [ 24%] Built target gz-waves
+[81.367s] [ 25%] Building CXX object test/gtest_vendor/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[81.554s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[81.899s] 1 warning generated.
+[82.034s] [ 26%] Linking CXX static library ../../lib/libgtest_main.a
+[82.573s] [ 26%] Built target gtest_main
+[82.921s] [ 27%] Building CXX object test/plots/CMakeFiles/PLOT_LinearRandomWaves.dir/PLOT_LinearRandomWaves.cc.o
+[83.105s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[84.152s] 1 warning generated.
+[84.289s] [ 29%] Linking CXX executable ../../bin/PLOT_LinearRandomWaves
+[84.713s] [ 29%] Built target PLOT_LinearRandomWaves
+[85.062s] [ 30%] Building CXX object test/plots/CMakeFiles/PLOT_LinearRegularWaves.dir/PLOT_LinearRegularWaves.cc.o
+[85.245s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[86.268s] 1 warning generated.
+[86.407s] [ 31%] Linking CXX executable ../../bin/PLOT_LinearRegularWaves
+[86.831s] [ 31%] Built target PLOT_LinearRegularWaves
+[87.379s] [ 33%] Building CXX object test/plots/CMakeFiles/PLOT_WaveSpectrum.dir/PLOT_WaveSpectrum.cc.o
+[87.379s] [ 33%] Building CXX object test/plots/CMakeFiles/PLOT_LinearRandomFFTWaves.dir/PLOT_LinearRandomFFTWaves.cc.o
+[87.662s] warning: warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[87.662s] 
+[88.494s] [ 34%] Building CXX object src/CMakeFiles/UNIT_Algorithm_TEST.dir/Algorithm_TEST.cc.o
+[88.693s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[88.754s] 1 warning generated.
+[88.795s] 1 warning generated.
+[88.963s] [ 36%] Linking CXX executable ../../bin/PLOT_WaveSpectrum
+[88.963s] [ 36%] Linking CXX executable ../../bin/PLOT_LinearRandomFFTWaves
+[89.396s] 1 warning generated.
+[89.625s] [ 36%] Linking CXX executable ../bin/UNIT_Algorithm_TEST
+[89.746s] [ 36%] Built target PLOT_WaveSpectrum
+[89.746s] [ 36%] Built target PLOT_LinearRandomFFTWaves
+[90.037s] [ 36%] Building CXX object test/plots/CMakeFiles/PLOT_GnuPlotExample.dir/PLOT_GnuPlotExample.cc.o
+[90.134s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[90.411s] [ 37%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-waves-model-system.dir/WavesModel.cc.o
+[90.412s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[90.499s] [ 38%] Built target UNIT_Algorithm_TEST
+[90.499s] [ 38%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/BaseRenderEngineExtension.cc.o
+[90.821s] [ 39%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/DisplacementMap.cc.o
+[90.822s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[90.918s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[91.158s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[91.221s] [ 40%] Building CXX object src/CMakeFiles/UNIT_EigenFFTW_TEST.dir/EigenFFTW_TEST.cc.o
+[91.356s] 1 warning generated.
+[91.483s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[91.537s] [ 41%] Linking CXX executable ../../bin/PLOT_GnuPlotExample
+[91.792s] 1 warning generated.
+[92.144s] [ 41%] Built target PLOT_GnuPlotExample
+[92.438s] [ 44%] Building CXX object src/CMakeFiles/UNIT_Geometry_TEST.dir/Geometry_TEST.cc.o
+[92.438s] [ 44%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/OceanGeometry.cc.o
+[92.556s] 1 warning generated.
+[92.886s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[92.887s] [ 45%] Linking CXX executable ../bin/UNIT_EigenFFTW_TEST
+[92.889s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[92.987s] [ 46%] Building CXX object src/CMakeFiles/UNIT_CGAL_TEST.dir/CGAL_TEST.cc.o
+[93.136s] 1 warning generated.
+[93.292s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[93.302s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[93.579s] [ 46%] Built target UNIT_EigenFFTW_TEST
+[93.827s] [ 47%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/OceanVisual.cc.o
+[94.176s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[94.240s] [ 48%] Building CXX object src/CMakeFiles/UNIT_Grid_TEST.dir/Grid_TEST.cc.o
+[94.478s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[94.792s] 1 warning generated.
+[94.995s] [ 49%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/RenderEngineExtension.cc.o
+[95.268s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[95.387s] 1 warning generated.
+[95.598s] [ 50%] Linking CXX shared library ../../../lib/libgz-waves-waves-model-system.dylib
+[96.516s] [ 50%] Built target gz-waves-waves-model-system
+[96.807s] 1 warning generated.
+[96.969s] [ 51%] Linking CXX executable ../bin/UNIT_Geometry_TEST
+[97.278s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[97.316s] 1 warning generated.
+[97.531s] [ 52%] Linking CXX executable ../bin/UNIT_Grid_TEST
+[97.611s] [ 52%] Built target UNIT_Geometry_TEST
+[97.758s] 1 warning generated.
+[97.820s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[98.040s] [ 52%] Built target UNIT_Grid_TEST
+[98.702s] 1 warning generated.
+[98.854s] [ 53%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/RenderEngineExtensionPlugin.cc.o
+[99.050s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[99.227s] 1 warning generated.
+[99.372s] [ 54%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/RenderEngineExtensionManager.cc.o
+[99.569s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[102.732s] 1 warning generated.
+[102.887s] [ 55%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering.dir/SceneNodeFactory.cc.o
+[103.082s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[104.644s] 1 warning generated.
+[104.812s] [ 56%] Linking CXX executable ../bin/UNIT_CGAL_TEST
+[105.058s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[105.266s] [ 56%] Built target UNIT_CGAL_TEST
+[105.842s] 1 warning generated.
+[105.983s] [ 58%] Linking CXX shared library ../../../lib/libgz-waves-rendering.dylib
+[106.589s] [ 58%] Built target gz-waves-rendering
+[106.943s] [ 59%] Building CXX object src/CMakeFiles/UNIT_TriangulatedGrid_TEST.dir/TriangulatedGrid_TEST.cc.o
+[107.127s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[108.902s] 1 warning generated.
+[109.042s] [ 60%] Linking CXX executable ../bin/UNIT_TriangulatedGrid_TEST
+[109.271s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[109.466s] [ 60%] Built target UNIT_TriangulatedGrid_TEST
+[109.815s] [ 61%] Building CXX object src/CMakeFiles/UNIT_Wavefield_TEST.dir/Wavefield_TEST.cc.o
+[109.997s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[111.215s] [ 63%] Building CXX object src/CMakeFiles/UNIT_WaveSpectrum_TEST.dir/WaveSpectrum_TEST.cc.o
+[111.215s] [ 63%] Building CXX object src/CMakeFiles/UNIT_Physics_TEST.dir/Physics_TEST.cc.o
+[111.506s] warning: warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[111.506s] 
+[112.075s] 1 warning generated.
+[112.372s] [ 64%] Linking CXX executable ../bin/UNIT_Wavefield_TEST
+[112.584s] 1 warning generated.
+[112.672s] [ 65%] Building CXX object src/CMakeFiles/UNIT_MeshTools_TEST.dir/MeshTools_TEST.cc.o
+[112.672s] [ 66%] Building CXX object src/CMakeFiles/UNIT_LinearRandomFFTWaveSimulation_TEST.dir/LinearRandomFFTWaveSimulation_TEST.cc.o
+[112.894s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[112.894s] [ 67%] Linking CXX executable ../bin/UNIT_WaveSpectrum_TEST
+[113.148s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[113.150s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[113.382s] [ 67%] Built target UNIT_Wavefield_TEST
+[113.504s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[113.967s] [ 67%] Building CXX object src/CMakeFiles/UNIT_LinearRegularWaveSimulation_TEST.dir/LinearRegularWaveSimulation_TEST.cc.o
+[113.970s] [ 67%] Built target UNIT_WaveSpectrum_TEST
+[113.974s] [ 68%] Building CXX object src/systems/hydrodynamics/CMakeFiles/gz-waves-hydrodynamics-system.dir/Collision.cc.o
+[114.334s] [ 69%] Building CXX object src/systems/dynamic/CMakeFiles/gz-waves-dynamic-geometry-system.dir/DynamicGeometry.cc.o
+[114.476s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[114.476s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[114.479s] [ 70%] Building CXX object src/CMakeFiles/UNIT_WaveSpreadingFunction_TEST.dir/WaveSpreadingFunction_TEST.cc.o
+[114.759s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[114.858s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[114.859s] [ 70%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2DisplacementMap.cc.o
+[115.091s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[116.419s] 1 warning generated.
+[116.595s] [ 72%] Linking CXX executable ../bin/UNIT_LinearRandomFFTWaveSimulation_TEST
+[116.931s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[117.199s] [ 72%] Built target UNIT_LinearRandomFFTWaveSimulation_TEST
+[117.452s] 1 warning generated.
+[117.671s] [ 72%] Linking CXX executable ../bin/UNIT_WaveSpreadingFunction_TEST
+[118.017s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[118.168s] 1 warning generated.
+[118.354s] [ 72%] Built target UNIT_WaveSpreadingFunction_TEST
+[118.399s] [ 72%] Building CXX object src/systems/hydrodynamics/CMakeFiles/gz-waves-hydrodynamics-system.dir/Hydrodynamics.cc.o
+[118.494s] 1 warning generated.
+[118.701s] [ 73%] Linking CXX executable ../bin/UNIT_Physics_TEST
+[118.705s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[119.041s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[119.340s] [ 73%] Built target UNIT_Physics_TEST
+[119.918s] 1 warning generated.
+[119.989s] 1 warning generated.
+[120.154s] [ 74%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2DynamicMesh.cc.o
+[120.239s] [ 75%] Linking CXX executable ../bin/UNIT_MeshTools_TEST
+[120.281s] 1 warning generated.
+[120.496s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[120.581s] [ 76%] Linking CXX executable ../bin/UNIT_LinearRegularWaveSimulation_TEST
+[120.668s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[120.963s] ld: warning: ignoring duplicate libraries: '-lpthread', '../lib/libgtest.a'
+[120.973s] [ 76%] Built target UNIT_MeshTools_TEST
+[121.203s] [ 76%] Built target UNIT_LinearRegularWaveSimulation_TEST
+[121.936s] 1 warning generated.
+[122.096s] [ 77%] Linking CXX shared library ../../../lib/libgz-waves-dynamic-geometry-system.dylib
+[122.208s] 1 warning generated.
+[122.398s] [ 78%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2OceanGeometry.cc.o
+[122.663s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[122.865s] [ 78%] Built target gz-waves-dynamic-geometry-system
+[123.649s] 1 warning generated.
+[123.797s] [ 79%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2OceanVisual.cc.o
+[123.987s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[126.577s] 1 warning generated.
+[126.730s] [ 80%] Linking CXX shared library ../../../lib/libgz-waves-hydrodynamics-system.dylib
+[127.371s] [ 80%] Built target gz-waves-hydrodynamics-system
+[127.567s] 1 warning generated.
+[127.708s] [ 81%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2RenderEngineExtension.cc.o
+[127.890s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[130.985s] 1 warning generated.
+[131.137s] [ 82%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-rendering-ogre2.dir/Ogre2SceneNodeFactory.cc.o
+[131.342s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[136.378s] 1 warning generated.
+[136.532s] [ 83%] Linking CXX shared library ../../../lib/libgz-waves-rendering-ogre2.dylib
+[137.190s] [ 83%] Built target gz-waves-rendering-ogre2
+[137.570s] [ 84%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRegularWaveSimDisplacements.dir/LinearRegularWaveSimDisplacements.cc.o
+[137.765s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[138.550s] 1 warning generated.
+[138.698s] [ 86%] Linking CXX executable ../../bin/PERFORMANCE_LinearRegularWaveSimDisplacements
+[138.941s] ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+[139.152s] [ 86%] Built target PERFORMANCE_LinearRegularWaveSimDisplacements
+[139.520s] [ 87%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_WaveSpectrumECKV.dir/WaveSpectrumECKV.cc.o
+[139.712s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[140.667s] 1 warning generated.
+[140.810s] [ 88%] Linking CXX executable ../../bin/PERFORMANCE_WaveSpectrumECKV
+[141.043s] ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+[141.245s] [ 88%] Built target PERFORMANCE_WaveSpectrumECKV
+[141.610s] [ 89%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimElevationAt.dir/LinearRandomFFTWaveSimElevationAt.cc.o
+[141.796s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[142.533s] 1 warning generated.
+[142.676s] [ 90%] Linking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimElevationAt
+[142.919s] ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+[143.126s] [ 90%] Built target PERFORMANCE_LinearRandomFFTWaveSimElevationAt
+[143.494s] [ 91%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimDisplacements.dir/LinearRandomFFTWaveSimDisplacements.cc.o
+[143.688s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[144.448s] 1 warning generated.
+[144.592s] [ 92%] Linking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimDisplacements
+[144.835s] ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+[145.039s] [ 92%] Built target PERFORMANCE_LinearRandomFFTWaveSimDisplacements
+[145.410s] [ 93%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes.dir/LinearRandomFFTWaveSimCurrentAmplitudes.cc.o
+[145.597s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[146.283s] 1 warning generated.
+[146.422s] [ 94%] Linking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes
+[146.654s] ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+[146.851s] [ 94%] Built target PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes
+[147.532s] [ 97%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_EigenReturnByValue.dir/EigenReturnByValue.cc.o
+[147.532s] [ 97%] Building CXX object src/systems/waves/CMakeFiles/gz-waves-waves-visual-system.dir/WavesVisual.cc.o
+[147.532s] [ 97%] Building CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes.dir/LinearRandomFFTWaveSimBaseAmplitudes.cc.o
+[147.875s] warning: warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[147.875s] 
+[147.875s] warning: unknown warning option '-Wno-duplicate-libraries' [-Wunknown-warning-option]
+[148.310s] 1 warning generated.
+[148.461s] [ 98%] Linking CXX executable ../../bin/PERFORMANCE_EigenReturnByValue
+[148.616s] 1 warning generated.
+[148.746s] ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+[148.796s] [ 98%] Linking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes
+[149.002s] [ 98%] Built target PERFORMANCE_EigenReturnByValue
+[149.106s] ld: warning: ignoring duplicate libraries: '-lpthread', '../../lib/libgtest.a'
+[149.320s] [ 98%] Built target PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes
+[153.346s] 1 warning generated.
+[153.491s] [100%] Linking CXX shared library ../../../lib/libgz-waves-waves-visual-system.dylib
+[154.191s] [100%] Built target gz-waves-waves-visual-system
+[154.250s] Invoked command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves' returned '0': SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves -- -j8 -l8
+[154.253s] Invoking command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves': SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves
+[154.308s] -- Install configuration: "RelWithDebInfo"
+[154.308s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-all/gz-waves-all-config.cmake
+[154.308s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-all/gz-waves-all-config-version.cmake
+[154.309s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-all/gz-waves-all-targets.cmake
+[154.309s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/detail/Export.hh
+[154.310s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Export.hh
+[154.310s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves.1.0.0.dylib
+[154.311s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves.1.dylib
+[154.543s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves.dylib
+[154.543s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-config.cmake
+[154.543s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-config-version.cmake
+[154.544s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-targets.cmake
+[154.544s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves/gz-waves-targets-relwithdebinfo.cmake
+[154.544s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves.pc
+[154.546s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/dynamic-geometry-system/detail/Export.hh
+[154.546s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/dynamic-geometry-system/Export.hh
+[154.546s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-dynamic-geometry-system.1.0.0.dylib
+[154.547s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-dynamic-geometry-system.1.dylib
+[154.766s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-dynamic-geometry-system.dylib
+[154.766s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-config.cmake
+[154.766s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-config-version.cmake
+[154.767s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-targets.cmake
+[154.767s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-dynamic-geometry-system/gz-waves-dynamic-geometry-system-targets-relwithdebinfo.cmake
+[154.767s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-dynamic-geometry-system.pc
+[154.768s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/hydrodynamics-system/detail/Export.hh
+[154.768s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/hydrodynamics-system/Export.hh
+[154.768s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-hydrodynamics-system.1.0.0.dylib
+[154.769s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-hydrodynamics-system.1.dylib
+[154.981s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-hydrodynamics-system.dylib
+[154.981s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-config.cmake
+[154.982s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-config-version.cmake
+[154.982s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-targets.cmake
+[154.983s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-hydrodynamics-system/gz-waves-hydrodynamics-system-targets-relwithdebinfo.cmake
+[154.983s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-hydrodynamics-system.pc
+[154.984s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering/detail/Export.hh
+[154.985s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering/Export.hh
+[154.985s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering.1.0.0.dylib
+[154.985s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering.1.dylib
+[155.194s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering.dylib
+[155.194s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-config.cmake
+[155.195s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-config-version.cmake
+[155.195s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-targets.cmake
+[155.195s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering/gz-waves-rendering-targets-relwithdebinfo.cmake
+[155.196s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-rendering.pc
+[155.196s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering-ogre2/detail/Export.hh
+[155.196s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/rendering-ogre2/Export.hh
+[155.196s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering-ogre2.1.0.0.dylib
+[155.197s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering-ogre2.1.dylib
+[155.434s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-rendering-ogre2.dylib
+[155.434s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-config.cmake
+[155.435s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-config-version.cmake
+[155.435s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-targets.cmake
+[155.436s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-rendering-ogre2/gz-waves-rendering-ogre2-targets-relwithdebinfo.cmake
+[155.437s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-rendering-ogre2.pc
+[155.437s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-visual-system/detail/Export.hh
+[155.437s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-visual-system/Export.hh
+[155.438s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-visual-system.1.0.0.dylib
+[155.438s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-visual-system.1.dylib
+[155.644s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-visual-system.dylib
+[155.644s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-config.cmake
+[155.645s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-config-version.cmake
+[155.645s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-targets.cmake
+[155.645s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-visual-system/gz-waves-waves-visual-system-targets-relwithdebinfo.cmake
+[155.646s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-waves-visual-system.pc
+[155.646s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-model-system/detail/Export.hh
+[155.646s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/waves-model-system/Export.hh
+[155.647s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-model-system.1.0.0.dylib
+[155.647s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-model-system.1.dylib
+[155.848s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/libgz-waves-waves-model-system.dylib
+[155.848s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-config.cmake
+[155.849s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-config-version.cmake
+[155.849s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-targets.cmake
+[155.849s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/cmake/gz-waves-waves-model-system/gz-waves-waves-model-system-targets-relwithdebinfo.cmake
+[155.850s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/lib/pkgconfig/gz-waves-waves-model-system.pc
+[155.851s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/components/Wavefield.hh
+[155.851s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Algorithm.hh
+[155.852s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/CGALTypes.hh
+[155.852s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Convert.hh
+[155.852s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Geometry.hh
+[155.852s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Grid.hh
+[155.853s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/LinearRandomFFTWaveSimulation.hh
+[155.853s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/LinearRandomWaveSimulation.hh
+[155.853s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/LinearRegularWaveSimulation.hh
+[155.854s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/MeshTools.hh
+[155.854s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/OceanTile.hh
+[155.854s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/PhysicalConstants.hh
+[155.854s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Physics.hh
+[155.854s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/TriangulatedGrid.hh
+[155.855s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/TrochoidIrregularWaveSimulation.hh
+[155.855s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Types.hh
+[155.855s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Utilities.hh
+[155.855s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveParameters.hh
+[155.856s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveSimulation.hh
+[155.856s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveSpectrum.hh
+[155.856s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WaveSpreadingFunction.hh
+[155.856s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/Wavefield.hh
+[155.856s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/WavefieldSampler.hh
+[155.857s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves.hh
+[155.857s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/config.hh
+[155.857s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/include/gz/waves1/gz/waves/components.hh
+[155.858s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_GnuPlotExample
+[156.067s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_LinearRandomFFTWaves
+[156.274s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_LinearRandomWaves
+[156.478s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_LinearRegularWaves
+[156.681s] -- Installing: /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/install/bin/PLOT_WaveSpectrum
+[156.886s] Invoked command in '/Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves' returned '0': SHLVL=2 VIRTUAL_ENV_PROMPT=(.ros2_venv) _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/kimminjung/vllm_control_ws/src/AI-Control-Room-VLLM/build/gz-waves

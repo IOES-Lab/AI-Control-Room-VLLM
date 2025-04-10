@@ -86,6 +86,18 @@
 ### 2.1.1 ROS-Gazebo 설치
 > 참고자료 : https://github.com/IOES-Lab/ROS_GZ_MacOS_Native_AppleSilicon/tree/macos_patch
 - ROS는 소스코드로부터 직접 컴파일, Gazebo는 brew 패키지 매니저로 컴파일된 binary 설치
+
+- XCode가 설치되어 있다면 버전 확인!
+  <!-- - > `CURRENTLY ONLY XCODE VERSION 16.2 WORKS!` (16.3 is default bundle with macOS 14.5). You need to downgrade to 16.2. To do so, follow instruction at https://www.antonseagull.com/post/how-to-downgrade-xcode -->
+  - 16.2 버전이 설치되어 있어야 함 (16.3은 macOS 14.5에 기본으로 설치됨)
+  - XCode 버전 확인
+    
+    ```bash
+    xcodebuild -version
+    ```
+  - XCode 버전이 16.2가 아니라면, [https://www.antonseagull.com/post/how-to-downgrade-xcode](https://www.antonseagull.com/post/how-to-downgrade-xcode) 를 따라 16.2로 다운그레이드 후 진행
+
+
 - 설치명령어
     
   ```bash
